@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-30T13:33:41.511+03:00
-  initializedAtString: 2020-07-30T13:31:32.619+03:00
+  lastUpdatedAtString: 2020-07-30T14:13:46.600+03:00
+  initializedAtString: 2020-07-30T13:53:25.037+03:00
   entries:
   - path: .gitattributes
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\.gitattributes
@@ -62,8 +62,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assembly-CSharp-Editor-firstpass.csproj
     projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Cube.prefab
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Cube.prefab
     projectPath: Assets\Cube.prefab
@@ -73,6 +73,18 @@ MonoBehaviour:
   - path: Assets\Cube.prefab.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Cube.prefab.meta
     projectPath: Assets\Cube.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Jumper.cs
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Jumper.cs
+    projectPath: Assets\Jumper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Jumper.cs.meta
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Jumper.cs.meta
+    projectPath: Assets\Jumper.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -110,384 +122,318 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Plugins.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins.meta
-    projectPath: Assets\Plugins.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub.meta
-    projectPath: Assets\Plugins\GitHub.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor.meta
-    projectPath: Assets\Plugins\GitHub\Editor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
     projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png
     projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
     projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\credits.txt
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\credits.txt
     projectPath: Assets\Plugins\GitHub\Editor\credits.txt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\credits.txt.meta
     projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\eula.txt
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\eula.txt
     projectPath: Assets\Plugins\GitHub\Editor\eula.txt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\eula.txt.meta
     projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
     projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
     projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
     projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.bundle
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\libsfw.so
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.so
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.so.meta
     projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
     projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
     projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
     projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
     projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\sfw.net.dll
     projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\System.Threading.dll
     projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
     projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
     projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
     projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
     projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Projectile.prefab
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Projectile.prefab
     projectPath: Assets\Projectile.prefab
@@ -518,18 +464,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\Katana.cs
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Katana.cs
-    projectPath: Assets\Scripts\Katana.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Projectile.cs
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Projectile.cs
-    projectPath: Assets\Scripts\Projectile.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\AnnotationManager
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\AnnotationManager
     projectPath: Library\AnnotationManager
@@ -648,8 +582,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\01\01cb2db064f89e1ab145515cf6bf42fb
     projectPath: Library\Artifacts\01\01cb2db064f89e1ab145515cf6bf42fb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\02\020584993fb67827525227235a32c1c2
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\02\020584993fb67827525227235a32c1c2
     projectPath: Library\Artifacts\02\020584993fb67827525227235a32c1c2
@@ -720,8 +654,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\03\03c95cf923fd52aed96e008047ab9404
     projectPath: Library\Artifacts\03\03c95cf923fd52aed96e008047ab9404
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\03\03d7489f35da37fee4e222231df72d00
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\03\03d7489f35da37fee4e222231df72d00
     projectPath: Library\Artifacts\03\03d7489f35da37fee4e222231df72d00
@@ -896,12 +830,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\08\0814f7ebe2f9ac30a0afac3c808efd25
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\08\0814f7ebe2f9ac30a0afac3c808efd25
-    projectPath: Library\Artifacts\08\0814f7ebe2f9ac30a0afac3c808efd25
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\08\082634e1e8a2f1f94af5f570831c96a2
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\08\082634e1e8a2f1f94af5f570831c96a2
     projectPath: Library\Artifacts\08\082634e1e8a2f1f94af5f570831c96a2
@@ -923,12 +851,6 @@ MonoBehaviour:
   - path: Library\Artifacts\0a\0a61df3dd2cf860cf11e317348152079
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\0a\0a61df3dd2cf860cf11e317348152079
     projectPath: Library\Artifacts\0a\0a61df3dd2cf860cf11e317348152079
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0a\0a9cf6f4d4572b9e869a98cb1e338632
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\0a\0a9cf6f4d4572b9e869a98cb1e338632
-    projectPath: Library\Artifacts\0a\0a9cf6f4d4572b9e869a98cb1e338632
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1640,12 +1562,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\17\17ce8aceb80797eb6b1fb1f6114ef4a5
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\17\17ce8aceb80797eb6b1fb1f6114ef4a5
-    projectPath: Library\Artifacts\17\17ce8aceb80797eb6b1fb1f6114ef4a5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\18\1809f75cadf19f0ab1e969a0d7ba779f
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\18\1809f75cadf19f0ab1e969a0d7ba779f
     projectPath: Library\Artifacts\18\1809f75cadf19f0ab1e969a0d7ba779f
@@ -1856,12 +1772,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\1d\1d4912319f1b9e318071e46a9fe14a99
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1d\1d4912319f1b9e318071e46a9fe14a99
-    projectPath: Library\Artifacts\1d\1d4912319f1b9e318071e46a9fe14a99
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\1d\1d777687c1e5f520a1144bbddc8a059a
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1d\1d777687c1e5f520a1144bbddc8a059a
     projectPath: Library\Artifacts\1d\1d777687c1e5f520a1144bbddc8a059a
@@ -1964,9 +1874,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\1f\1fb95f953fe019ed24340e7a029e68ac
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1f\1fb95f953fe019ed24340e7a029e68ac
-    projectPath: Library\Artifacts\1f\1fb95f953fe019ed24340e7a029e68ac
+  - path: Library\Artifacts\1f\1f97be4bbc6ae222f7d47f6f279aee02
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1f\1f97be4bbc6ae222f7d47f6f279aee02
+    projectPath: Library\Artifacts\1f\1f97be4bbc6ae222f7d47f6f279aee02
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1991,12 +1901,6 @@ MonoBehaviour:
   - path: Library\Artifacts\20\208249f8579d060e12422e6e5717d40a
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\20\208249f8579d060e12422e6e5717d40a
     projectPath: Library\Artifacts\20\208249f8579d060e12422e6e5717d40a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
-    projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2178,8 +2082,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\26\262fc2367687c0b114abb567fa8fe410
     projectPath: Library\Artifacts\26\262fc2367687c0b114abb567fa8fe410
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\26\2657b883d7975379ec13920a9186a698
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\26\2657b883d7975379ec13920a9186a698
     projectPath: Library\Artifacts\26\2657b883d7975379ec13920a9186a698
@@ -2514,8 +2418,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\2d\2d625a7fd890fab1f3f3f0452b6a9cac
     projectPath: Library\Artifacts\2d\2d625a7fd890fab1f3f3f0452b6a9cac
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\2d\2d78b060eaf681f7d867c0ea738356ef
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\2d\2d78b060eaf681f7d867c0ea738356ef
     projectPath: Library\Artifacts\2d\2d78b060eaf681f7d867c0ea738356ef
@@ -2786,15 +2690,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\33\3313e320910f598ba963892bd191f28d
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\33\3313e320910f598ba963892bd191f28d
-    projectPath: Library\Artifacts\33\3313e320910f598ba963892bd191f28d
+  - path: Library\Artifacts\32\32c7df56ae59766fd5f506581038a9b1
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\32\32c7df56ae59766fd5f506581038a9b1
+    projectPath: Library\Artifacts\32\32c7df56ae59766fd5f506581038a9b1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\33\33254a8f6ad9551a73e730196d68dc89
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\33\33254a8f6ad9551a73e730196d68dc89
-    projectPath: Library\Artifacts\33\33254a8f6ad9551a73e730196d68dc89
+  - path: Library\Artifacts\33\3313e320910f598ba963892bd191f28d
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\33\3313e320910f598ba963892bd191f28d
+    projectPath: Library\Artifacts\33\3313e320910f598ba963892bd191f28d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -3320,12 +3224,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\3f\3f9a8b76597b9ac0d0154efe71edde04
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\3f\3f9a8b76597b9ac0d0154efe71edde04
-    projectPath: Library\Artifacts\3f\3f9a8b76597b9ac0d0154efe71edde04
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\3f\3fb4ac9228c7cf9740b9b84e22f854d6
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\3f\3fb4ac9228c7cf9740b9b84e22f854d6
     projectPath: Library\Artifacts\3f\3fb4ac9228c7cf9740b9b84e22f854d6
@@ -3764,6 +3662,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\49\49eaa58071fb215ae2195eb0b1bf71c9
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\49\49eaa58071fb215ae2195eb0b1bf71c9
+    projectPath: Library\Artifacts\49\49eaa58071fb215ae2195eb0b1bf71c9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\49\49faab45d10f035adcd7c9944829d768
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\49\49faab45d10f035adcd7c9944829d768
     projectPath: Library\Artifacts\49\49faab45d10f035adcd7c9944829d768
@@ -3908,12 +3812,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\4e\4e3f685ae40cd962fb5da9bb1eb8c3dc
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\4e\4e3f685ae40cd962fb5da9bb1eb8c3dc
-    projectPath: Library\Artifacts\4e\4e3f685ae40cd962fb5da9bb1eb8c3dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\4e\4e4f7c60ae55071686575e75ddef06ec
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\4e\4e4f7c60ae55071686575e75ddef06ec
     projectPath: Library\Artifacts\4e\4e4f7c60ae55071686575e75ddef06ec
@@ -4019,6 +3917,12 @@ MonoBehaviour:
   - path: Library\Artifacts\50\507f7800f24d9181902386fc2d6358af
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\50\507f7800f24d9181902386fc2d6358af
     projectPath: Library\Artifacts\50\507f7800f24d9181902386fc2d6358af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\50\509c4c634c15ba1cff309910105f7abe
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\50\509c4c634c15ba1cff309910105f7abe
+    projectPath: Library\Artifacts\50\509c4c634c15ba1cff309910105f7abe
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -4223,12 +4127,6 @@ MonoBehaviour:
   - path: Library\Artifacts\55\55fa73c499355bc6e9dabb725788b089
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\55\55fa73c499355bc6e9dabb725788b089
     projectPath: Library\Artifacts\55\55fa73c499355bc6e9dabb725788b089
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\55\55fb8ed4bfeff144942afceee2a69691
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\55\55fb8ed4bfeff144942afceee2a69691
-    projectPath: Library\Artifacts\55\55fb8ed4bfeff144942afceee2a69691
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -4664,12 +4562,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\5f\5f70d50988ae308ed8320206e615ac7f
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\5f\5f70d50988ae308ed8320206e615ac7f
-    projectPath: Library\Artifacts\5f\5f70d50988ae308ed8320206e615ac7f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\5f\5fe0f5bcd4ca91c2ab0b161348749555
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\5f\5fe0f5bcd4ca91c2ab0b161348749555
     projectPath: Library\Artifacts\5f\5fe0f5bcd4ca91c2ab0b161348749555
@@ -5006,12 +4898,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\68\68ca759007869a4ce632beb7cd82bd2c
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\68\68ca759007869a4ce632beb7cd82bd2c
-    projectPath: Library\Artifacts\68\68ca759007869a4ce632beb7cd82bd2c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\68\68cd3fb3bd893f18c3d4f0327e795101
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\68\68cd3fb3bd893f18c3d4f0327e795101
     projectPath: Library\Artifacts\68\68cd3fb3bd893f18c3d4f0327e795101
@@ -5117,12 +5003,6 @@ MonoBehaviour:
   - path: Library\Artifacts\6a\6aaef7414c5fccdad97efd52263b22a6
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\6a\6aaef7414c5fccdad97efd52263b22a6
     projectPath: Library\Artifacts\6a\6aaef7414c5fccdad97efd52263b22a6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6a\6aafd8a82014c749a6afb94638d90af5
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\6a\6aafd8a82014c749a6afb94638d90af5
-    projectPath: Library\Artifacts\6a\6aafd8a82014c749a6afb94638d90af5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -5472,8 +5352,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\72\72cecfe10074f453a063787b4b48844b
     projectPath: Library\Artifacts\72\72cecfe10074f453a063787b4b48844b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\72\72d8a4e54f3a7dc9d9e0412e64bcbd8e
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\72\72d8a4e54f3a7dc9d9e0412e64bcbd8e
     projectPath: Library\Artifacts\72\72d8a4e54f3a7dc9d9e0412e64bcbd8e
@@ -6056,12 +5936,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\7e\7eb811a2e1c633d9ce42710ec74ae983
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\7e\7eb811a2e1c633d9ce42710ec74ae983
-    projectPath: Library\Artifacts\7e\7eb811a2e1c633d9ce42710ec74ae983
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\7e\7ec3256ccc95a94e06757d76c3d27d52
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\7e\7ec3256ccc95a94e06757d76c3d27d52
     projectPath: Library\Artifacts\7e\7ec3256ccc95a94e06757d76c3d27d52
@@ -6383,12 +6257,6 @@ MonoBehaviour:
   - path: Library\Artifacts\86\86a7e53099936b7e72dc2b4bb590d252
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\86\86a7e53099936b7e72dc2b4bb590d252
     projectPath: Library\Artifacts\86\86a7e53099936b7e72dc2b4bb590d252
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\86\86ae4c81fbd640f711d4c3a800891eee
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\86\86ae4c81fbd640f711d4c3a800891eee
-    projectPath: Library\Artifacts\86\86ae4c81fbd640f711d4c3a800891eee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -6956,12 +6824,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\93\9359c88afcb1e7bd74948ac7328f17af
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\93\9359c88afcb1e7bd74948ac7328f17af
-    projectPath: Library\Artifacts\93\9359c88afcb1e7bd74948ac7328f17af
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\93\93ba6b17820d4e6f96ce3f9f63887dea
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\93\93ba6b17820d4e6f96ce3f9f63887dea
     projectPath: Library\Artifacts\93\93ba6b17820d4e6f96ce3f9f63887dea
@@ -7292,12 +7154,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\9c\9c544ded6fac9e9e34d75aff8f88a19f
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9c\9c544ded6fac9e9e34d75aff8f88a19f
-    projectPath: Library\Artifacts\9c\9c544ded6fac9e9e34d75aff8f88a19f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\9c\9c66c20ef38126afaa5716966ba2ec60
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9c\9c66c20ef38126afaa5716966ba2ec60
     projectPath: Library\Artifacts\9c\9c66c20ef38126afaa5716966ba2ec60
@@ -7418,12 +7274,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\9e\9ebb443286a487837c3a82620419ee72
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9e\9ebb443286a487837c3a82620419ee72
-    projectPath: Library\Artifacts\9e\9ebb443286a487837c3a82620419ee72
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\9e\9edbc568f0b7b2463323fee8812eacd9
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9e\9edbc568f0b7b2463323fee8812eacd9
     projectPath: Library\Artifacts\9e\9edbc568f0b7b2463323fee8812eacd9
@@ -7469,12 +7319,6 @@ MonoBehaviour:
   - path: Library\Artifacts\9f\9fae8382a952b4ab41d09fa51ccbb04d
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9f\9fae8382a952b4ab41d09fa51ccbb04d
     projectPath: Library\Artifacts\9f\9fae8382a952b4ab41d09fa51ccbb04d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9f\9fc930145d335c552c75e136a60afef5
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9f\9fc930145d335c552c75e136a60afef5
-    projectPath: Library\Artifacts\9f\9fc930145d335c552c75e136a60afef5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -7547,6 +7391,12 @@ MonoBehaviour:
   - path: Library\Artifacts\a1\a184bcc285083e460e8e5365bc64b9b5
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\a1\a184bcc285083e460e8e5365bc64b9b5
     projectPath: Library\Artifacts\a1\a184bcc285083e460e8e5365bc64b9b5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a1\a1b3bbb7befcb0295e3eb64e5922f1eb
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\a1\a1b3bbb7befcb0295e3eb64e5922f1eb
+    projectPath: Library\Artifacts\a1\a1b3bbb7befcb0295e3eb64e5922f1eb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -7661,12 +7511,6 @@ MonoBehaviour:
   - path: Library\Artifacts\a4\a4385c7f702ab97c6d033fdb0b5baf6e
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\a4\a4385c7f702ab97c6d033fdb0b5baf6e
     projectPath: Library\Artifacts\a4\a4385c7f702ab97c6d033fdb0b5baf6e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a4\a44211ac44145644c8e87bf7f61e22a6
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\a4\a44211ac44145644c8e87bf7f61e22a6
-    projectPath: Library\Artifacts\a4\a44211ac44145644c8e87bf7f61e22a6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -8009,12 +7853,6 @@ MonoBehaviour:
   - path: Library\Artifacts\ad\ad5e26ea7ce3f3462ce81b0c91232b08
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\ad\ad5e26ea7ce3f3462ce81b0c91232b08
     projectPath: Library\Artifacts\ad\ad5e26ea7ce3f3462ce81b0c91232b08
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ad\ad6dba0cbad9e231b18b553f47037286
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\ad\ad6dba0cbad9e231b18b553f47037286
-    projectPath: Library\Artifacts\ad\ad6dba0cbad9e231b18b553f47037286
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -8672,12 +8510,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\bd\bd74e8c01ccde401f93c04c7ee2bc48e
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\bd\bd74e8c01ccde401f93c04c7ee2bc48e
-    projectPath: Library\Artifacts\bd\bd74e8c01ccde401f93c04c7ee2bc48e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\bd\bdb73450feb74124daaf83667d52a525
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\bd\bdb73450feb74124daaf83667d52a525
     projectPath: Library\Artifacts\bd\bdb73450feb74124daaf83667d52a525
@@ -9032,12 +8864,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c4\c40faa0e5b2b6e57926cca98448a4bcb
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\c4\c40faa0e5b2b6e57926cca98448a4bcb
-    projectPath: Library\Artifacts\c4\c40faa0e5b2b6e57926cca98448a4bcb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\c4\c445d040cfe1c1f6c088cad69d4fcd4f
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\c4\c445d040cfe1c1f6c088cad69d4fcd4f
     projectPath: Library\Artifacts\c4\c445d040cfe1c1f6c088cad69d4fcd4f
@@ -9374,12 +9200,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\cd\cd2112ed15235e3e8ccbe12c21198d09
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\cd\cd2112ed15235e3e8ccbe12c21198d09
-    projectPath: Library\Artifacts\cd\cd2112ed15235e3e8ccbe12c21198d09
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\cd\cd354bc5246cd2fe91cc0ab42c432afe
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\cd\cd354bc5246cd2fe91cc0ab42c432afe
     projectPath: Library\Artifacts\cd\cd354bc5246cd2fe91cc0ab42c432afe
@@ -9572,12 +9392,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\d1\d1d452c6e6d8359d2f3b3be2ce40b1fc
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\d1\d1d452c6e6d8359d2f3b3be2ce40b1fc
-    projectPath: Library\Artifacts\d1\d1d452c6e6d8359d2f3b3be2ce40b1fc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\d1\d1e594961d0ba9a1c538ac88d587a130
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\d1\d1e594961d0ba9a1c538ac88d587a130
     projectPath: Library\Artifacts\d1\d1e594961d0ba9a1c538ac88d587a130
@@ -9665,12 +9479,6 @@ MonoBehaviour:
   - path: Library\Artifacts\d3\d3bca100e4b12e29bd4d50fda43f2ff2
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\d3\d3bca100e4b12e29bd4d50fda43f2ff2
     projectPath: Library\Artifacts\d3\d3bca100e4b12e29bd4d50fda43f2ff2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d4\d402604e52a97ec3e24dbb95caeeb832
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\d4\d402604e52a97ec3e24dbb95caeeb832
-    projectPath: Library\Artifacts\d4\d402604e52a97ec3e24dbb95caeeb832
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -10056,8 +9864,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\dd\dd6c21e7450f4b35c777c2c5c8555392
     projectPath: Library\Artifacts\dd\dd6c21e7450f4b35c777c2c5c8555392
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\dd\dde63cac83745dd12f03304c3a2de4f2
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\dd\dde63cac83745dd12f03304c3a2de4f2
     projectPath: Library\Artifacts\dd\dde63cac83745dd12f03304c3a2de4f2
@@ -10073,12 +9881,6 @@ MonoBehaviour:
   - path: Library\Artifacts\de\de11805f9052a2a1b6f95483f33d654f
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\de\de11805f9052a2a1b6f95483f33d654f
     projectPath: Library\Artifacts\de\de11805f9052a2a1b6f95483f33d654f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\de\de233c5f95a22eed7dd0093553e77e06
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\de\de233c5f95a22eed7dd0093553e77e06
-    projectPath: Library\Artifacts\de\de233c5f95a22eed7dd0093553e77e06
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -10133,12 +9935,6 @@ MonoBehaviour:
   - path: Library\Artifacts\df\df39d30c05ddd33377338cb68ce14b07
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\df\df39d30c05ddd33377338cb68ce14b07
     projectPath: Library\Artifacts\df\df39d30c05ddd33377338cb68ce14b07
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\df\df3e2f2382d05114f735092f6fcfae62
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\df\df3e2f2382d05114f735092f6fcfae62
-    projectPath: Library\Artifacts\df\df3e2f2382d05114f735092f6fcfae62
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -10326,8 +10122,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\e4\e4a27c34963f2453a72d0d093f6ac3ea
     projectPath: Library\Artifacts\e4\e4a27c34963f2453a72d0d093f6ac3ea
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\e5\e502e655a3fd93cae5343b3cf2e99ecf
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\e5\e502e655a3fd93cae5343b3cf2e99ecf
     projectPath: Library\Artifacts\e5\e502e655a3fd93cae5343b3cf2e99ecf
@@ -10760,6 +10556,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\ef\ef7af8e38d0c6864ff430fc419a3d28e
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\ef\ef7af8e38d0c6864ff430fc419a3d28e
+    projectPath: Library\Artifacts\ef\ef7af8e38d0c6864ff430fc419a3d28e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\ef\ef7b59c2f3435d666e1dc5093d64b302
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\ef\ef7b59c2f3435d666e1dc5093d64b302
     projectPath: Library\Artifacts\ef\ef7b59c2f3435d666e1dc5093d64b302
@@ -10860,8 +10662,8 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\f3\f35e81bc6d9c92f36837e84f4d58b417
     projectPath: Library\Artifacts\f3\f35e81bc6d9c92f36837e84f4d58b417
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\f3\f3cd30fab636b2c8d75eb39be7f38f35
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\f3\f3cd30fab636b2c8d75eb39be7f38f35
     projectPath: Library\Artifacts\f3\f3cd30fab636b2c8d75eb39be7f38f35
@@ -11484,11 +11286,17 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -11496,20 +11304,20 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\InspectorExpandedItems.asset
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
@@ -28983,20 +28791,14 @@ MonoBehaviour:
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
     projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
@@ -29705,12 +29507,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     fullPath: C:\Users\canay\New Unity Project\New Unity Project\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
@@ -29861,15 +29657,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3390ddcc1ce6a6e4dafce22c232ed278
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-3390ddcc1ce6a6e4dafce22c232ed278
-    projectPath: Temp\UnityTempFile-3390ddcc1ce6a6e4dafce22c232ed278
+  - path: Temp\UnityTempFile-706b92be846ffc544938359b1046a8fc
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-706b92be846ffc544938359b1046a8fc
+    projectPath: Temp\UnityTempFile-706b92be846ffc544938359b1046a8fc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-67a6c249bafe8c545a2c68c80ea7d04a
-    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-67a6c249bafe8c545a2c68c80ea7d04a
-    projectPath: Temp\UnityTempFile-67a6c249bafe8c545a2c68c80ea7d04a
+  - path: Temp\UnityTempFile-96a998fecfdab6d479f71953b90abdda
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-96a998fecfdab6d479f71953b90abdda
+    projectPath: Temp\UnityTempFile-96a998fecfdab6d479f71953b90abdda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9e68c9ac9d526194cbdda6d5fe884fd6
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-9e68c9ac9d526194cbdda6d5fe884fd6
+    projectPath: Temp\UnityTempFile-9e68c9ac9d526194cbdda6d5fe884fd6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c0284a0cf0d94fc4981c4471c144b649
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-c0284a0cf0d94fc4981c4471c144b649
+    projectPath: Temp\UnityTempFile-c0284a0cf0d94fc4981c4471c144b649
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c9143557a05ce0d418cc32bbcbec145f
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-c9143557a05ce0d418cc32bbcbec145f
+    projectPath: Temp\UnityTempFile-c9143557a05ce0d418cc32bbcbec145f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-facb5c2beadc2e84497cb6a4c3d0e598
+    fullPath: C:\Users\canay\New Unity Project\New Unity Project\Temp\UnityTempFile-facb5c2beadc2e84497cb6a4c3d0e598
+    projectPath: Temp\UnityTempFile-facb5c2beadc2e84497cb6a4c3d0e598
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

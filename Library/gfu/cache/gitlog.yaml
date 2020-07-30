@@ -1,0 +1,798 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-07-30T14:05:40.608+03:00
+  initializedAtString: 2020-07-30T14:05:40.301+03:00
+  log:
+  - commitID: 06656f02796e5480a5dc2011a43f7efe7052aa24
+    mergeA: 33fe213857191681f666aa2d0ce8fb80bf8b060e
+    mergeB: cb1776f3860ed8094fa4d9c45d1573022a9868fc
+    authorName: "Can Aybal\u0131k"
+    authorEmail: can.moonfish@gmail.com
+    commitEmail: can.moonfish@gmail.com
+    commitName: "Can Aybal\u0131k"
+    summary: Merge branch 'master' of https://github.com/can-aybalik/New-Unity-Project
+    description: 
+    timeString: 2020-07-30T13:36:30.000+03:00
+    commitTimeString: 2020-07-30T13:36:30.000+03:00
+    changes: []
+  - commitID: 33fe213857191681f666aa2d0ce8fb80bf8b060e
+    mergeA: 
+    mergeB: 
+    authorName: "Can Aybal\u0131k"
+    authorEmail: can.moonfish@gmail.com
+    commitEmail: can.moonfish@gmail.com
+    commitName: "Can Aybal\u0131k"
+    summary: Second Push
+    description: 
+    timeString: 2020-07-30T13:36:14.000+03:00
+    commitTimeString: 2020-07-30T13:36:14.000+03:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Katana.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Katana.cs
+      projectPath: Assets\Scripts\Katana.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Projectile.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Projectile.cs
+      projectPath: Assets\Scripts\Projectile.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\01\01cb2db064f89e1ab145515cf6bf42fb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\01\01cb2db064f89e1ab145515cf6bf42fb
+      projectPath: Library\Artifacts\01\01cb2db064f89e1ab145515cf6bf42fb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\03\03c95cf923fd52aed96e008047ab9404
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\03\03c95cf923fd52aed96e008047ab9404
+      projectPath: Library\Artifacts\03\03c95cf923fd52aed96e008047ab9404
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\08\0814f7ebe2f9ac30a0afac3c808efd25
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\08\0814f7ebe2f9ac30a0afac3c808efd25
+      projectPath: Library\Artifacts\08\0814f7ebe2f9ac30a0afac3c808efd25
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\0a\0a9cf6f4d4572b9e869a98cb1e338632
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\0a\0a9cf6f4d4572b9e869a98cb1e338632
+      projectPath: Library\Artifacts\0a\0a9cf6f4d4572b9e869a98cb1e338632
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\17\17ce8aceb80797eb6b1fb1f6114ef4a5
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\17\17ce8aceb80797eb6b1fb1f6114ef4a5
+      projectPath: Library\Artifacts\17\17ce8aceb80797eb6b1fb1f6114ef4a5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1a\1ac344c0119a7c1258c34fef2dd75d00
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1a\1ac344c0119a7c1258c34fef2dd75d00
+      projectPath: Library\Artifacts\1a\1ac344c0119a7c1258c34fef2dd75d00
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1d\1d4912319f1b9e318071e46a9fe14a99
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1d\1d4912319f1b9e318071e46a9fe14a99
+      projectPath: Library\Artifacts\1d\1d4912319f1b9e318071e46a9fe14a99
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1f\1fb95f953fe019ed24340e7a029e68ac
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\1f\1fb95f953fe019ed24340e7a029e68ac
+      projectPath: Library\Artifacts\1f\1fb95f953fe019ed24340e7a029e68ac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\26\262fc2367687c0b114abb567fa8fe410
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\26\262fc2367687c0b114abb567fa8fe410
+      projectPath: Library\Artifacts\26\262fc2367687c0b114abb567fa8fe410
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2d\2d625a7fd890fab1f3f3f0452b6a9cac
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\2d\2d625a7fd890fab1f3f3f0452b6a9cac
+      projectPath: Library\Artifacts\2d\2d625a7fd890fab1f3f3f0452b6a9cac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\33\33254a8f6ad9551a73e730196d68dc89
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\33\33254a8f6ad9551a73e730196d68dc89
+      projectPath: Library\Artifacts\33\33254a8f6ad9551a73e730196d68dc89
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\3f\3f9a8b76597b9ac0d0154efe71edde04
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\3f\3f9a8b76597b9ac0d0154efe71edde04
+      projectPath: Library\Artifacts\3f\3f9a8b76597b9ac0d0154efe71edde04
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4e\4e3f685ae40cd962fb5da9bb1eb8c3dc
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\4e\4e3f685ae40cd962fb5da9bb1eb8c3dc
+      projectPath: Library\Artifacts\4e\4e3f685ae40cd962fb5da9bb1eb8c3dc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\55\55fb8ed4bfeff144942afceee2a69691
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\55\55fb8ed4bfeff144942afceee2a69691
+      projectPath: Library\Artifacts\55\55fb8ed4bfeff144942afceee2a69691
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\5f\5f70d50988ae308ed8320206e615ac7f
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\5f\5f70d50988ae308ed8320206e615ac7f
+      projectPath: Library\Artifacts\5f\5f70d50988ae308ed8320206e615ac7f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\68\68ca759007869a4ce632beb7cd82bd2c
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\68\68ca759007869a4ce632beb7cd82bd2c
+      projectPath: Library\Artifacts\68\68ca759007869a4ce632beb7cd82bd2c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\6a\6aafd8a82014c749a6afb94638d90af5
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\6a\6aafd8a82014c749a6afb94638d90af5
+      projectPath: Library\Artifacts\6a\6aafd8a82014c749a6afb94638d90af5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\72\72cecfe10074f453a063787b4b48844b
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\72\72cecfe10074f453a063787b4b48844b
+      projectPath: Library\Artifacts\72\72cecfe10074f453a063787b4b48844b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\7e\7eb811a2e1c633d9ce42710ec74ae983
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\7e\7eb811a2e1c633d9ce42710ec74ae983
+      projectPath: Library\Artifacts\7e\7eb811a2e1c633d9ce42710ec74ae983
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\86\86ae4c81fbd640f711d4c3a800891eee
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\86\86ae4c81fbd640f711d4c3a800891eee
+      projectPath: Library\Artifacts\86\86ae4c81fbd640f711d4c3a800891eee
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\93\9359c88afcb1e7bd74948ac7328f17af
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\93\9359c88afcb1e7bd74948ac7328f17af
+      projectPath: Library\Artifacts\93\9359c88afcb1e7bd74948ac7328f17af
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\9c\9c544ded6fac9e9e34d75aff8f88a19f
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9c\9c544ded6fac9e9e34d75aff8f88a19f
+      projectPath: Library\Artifacts\9c\9c544ded6fac9e9e34d75aff8f88a19f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\9e\9ebb443286a487837c3a82620419ee72
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9e\9ebb443286a487837c3a82620419ee72
+      projectPath: Library\Artifacts\9e\9ebb443286a487837c3a82620419ee72
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\9f\9fc930145d335c552c75e136a60afef5
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\9f\9fc930145d335c552c75e136a60afef5
+      projectPath: Library\Artifacts\9f\9fc930145d335c552c75e136a60afef5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a4\a44211ac44145644c8e87bf7f61e22a6
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\a4\a44211ac44145644c8e87bf7f61e22a6
+      projectPath: Library\Artifacts\a4\a44211ac44145644c8e87bf7f61e22a6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ad\ad6dba0cbad9e231b18b553f47037286
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\ad\ad6dba0cbad9e231b18b553f47037286
+      projectPath: Library\Artifacts\ad\ad6dba0cbad9e231b18b553f47037286
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\bd\bd74e8c01ccde401f93c04c7ee2bc48e
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\bd\bd74e8c01ccde401f93c04c7ee2bc48e
+      projectPath: Library\Artifacts\bd\bd74e8c01ccde401f93c04c7ee2bc48e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\cd\cd2112ed15235e3e8ccbe12c21198d09
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\cd\cd2112ed15235e3e8ccbe12c21198d09
+      projectPath: Library\Artifacts\cd\cd2112ed15235e3e8ccbe12c21198d09
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d1\d1d452c6e6d8359d2f3b3be2ce40b1fc
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\d1\d1d452c6e6d8359d2f3b3be2ce40b1fc
+      projectPath: Library\Artifacts\d1\d1d452c6e6d8359d2f3b3be2ce40b1fc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d4\d402604e52a97ec3e24dbb95caeeb832
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\d4\d402604e52a97ec3e24dbb95caeeb832
+      projectPath: Library\Artifacts\d4\d402604e52a97ec3e24dbb95caeeb832
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\dd\dd6c21e7450f4b35c777c2c5c8555392
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\dd\dd6c21e7450f4b35c777c2c5c8555392
+      projectPath: Library\Artifacts\dd\dd6c21e7450f4b35c777c2c5c8555392
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\de\de233c5f95a22eed7dd0093553e77e06
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\de\de233c5f95a22eed7dd0093553e77e06
+      projectPath: Library\Artifacts\de\de233c5f95a22eed7dd0093553e77e06
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\df\df3e2f2382d05114f735092f6fcfae62
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\df\df3e2f2382d05114f735092f6fcfae62
+      projectPath: Library\Artifacts\df\df3e2f2382d05114f735092f6fcfae62
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e4\e4a27c34963f2453a72d0d093f6ac3ea
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\e4\e4a27c34963f2453a72d0d093f6ac3ea
+      projectPath: Library\Artifacts\e4\e4a27c34963f2453a72d0d093f6ac3ea
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f3\f35e81bc6d9c92f36837e84f4d58b417
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\Artifacts\f3\f35e81bc6d9c92f36837e84f4d58b417
+      projectPath: Library\Artifacts\f3\f35e81bc6d9c92f36837e84f4d58b417
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: cb1776f3860ed8094fa4d9c45d1573022a9868fc
+    mergeA: 
+    mergeB: 
+    authorName: can-aybalik
+    authorEmail: 61124496+can-aybalik@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create README.md
+    description: 
+    timeString: 2020-07-30T12:15:18.000+03:00
+    commitTimeString: 2020-07-30T12:15:18.000+03:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 172fa617462fd6fde4e65984bf84067eaa5ada8f
+    mergeA: 
+    mergeB: 
+    authorName: "Can Aybal\u0131k"
+    authorEmail: can.moonfish@gmail.com
+    commitEmail: can.moonfish@gmail.com
+    commitName: "Can Aybal\u0131k"
+    summary: Initial Push
+    description: 
+    timeString: 2020-07-30T12:12:07.000+03:00
+    commitTimeString: 2020-07-30T12:12:07.000+03:00
+    changes:
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\EnemyShooting.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\EnemyShooting.cs
+      projectPath: Assets\Scripts\EnemyShooting.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\EnemyShooting.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\EnemyShooting.cs.meta
+      projectPath: Assets\Scripts\EnemyShooting.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\FollowPlayer.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\FollowPlayer.cs
+      projectPath: Assets\Scripts\FollowPlayer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\FollowPlayer.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\FollowPlayer.cs.meta
+      projectPath: Assets\Scripts\FollowPlayer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Katana.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Katana.cs
+      projectPath: Assets\Scripts\Katana.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Katana.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Katana.cs.meta
+      projectPath: Assets\Scripts\Katana.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMovement.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\PlayerMovement.cs
+      projectPath: Assets\Scripts\PlayerMovement.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMovement.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\PlayerMovement.cs.meta
+      projectPath: Assets\Scripts\PlayerMovement.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Projectile.cs
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Projectile.cs
+      projectPath: Assets\Scripts\Projectile.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Projectile.cs.meta
+      fullPath: C:\Users\canay\New Unity Project\New Unity Project\Assets\Scripts\Projectile.cs.meta
+      projectPath: Assets\Scripts\Projectile.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

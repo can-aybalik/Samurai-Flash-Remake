@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-07-30T13:31:31.192+03:00
-  initializedAtString: 2020-07-30T13:31:31.192+03:00
+  lastUpdatedAtString: 2020-07-30T14:05:40.198+03:00
+  initializedAtString: 2020-07-30T13:53:19.251+03:00
   currentGitRemote:
     name: origin
-    url: https://github.com/can-aybalik/New-Unity-Project.git
+    url: https://github.com/can-aybalik/Samurai-Flash-Remake.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: master
     remote:
       name: origin
-      url: https://github.com/can-aybalik/New-Unity-Project.git
+      url: https://github.com/can-aybalik/Samurai-Flash-Remake.git
     trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/can-aybalik/New-Unity-Project.git
+    url: https://github.com/can-aybalik/Samurai-Flash-Remake.git
   currentHead: 
