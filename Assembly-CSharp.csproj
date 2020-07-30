@@ -60,7 +60,8 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyShooting.cs" />
-    <Compile Include="Assets\Jumper.cs" />
+    <Compile Include="Assets\Scripts\Jumper.cs" />
+    <Compile Include="Assets\Scripts\FinishLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
