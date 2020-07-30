@@ -46,6 +46,7 @@ public class Projectile : MonoBehaviour
 
             Instantiate(slicedBullet, transform.position, Quaternion.identity);
             Instantiate(slicedBullet, upperPos, Quaternion.identity);
+            
 
         }
     }

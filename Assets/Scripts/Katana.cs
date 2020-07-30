@@ -24,5 +24,10 @@ public class Katana : MonoBehaviour
         {
             transform.Rotate(0, +rotationSize, 0);
         }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.Rotate(0, +rotationSize*5, 0);
+        }
     }
 }
