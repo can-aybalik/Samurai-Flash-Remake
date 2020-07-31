@@ -14,7 +14,14 @@ public class EnemyShooting : MonoBehaviour
 
     public GameObject bullet;
 
+    public GameObject slicedEnemy;
+
+    private Vector3 upperPos;
+
+    public float cutSize;
+
     private float timeBtwShots;
+
     public float startTimeBtwShots;
 
     // Start is called before the first frame update
@@ -43,4 +50,30 @@ public class EnemyShooting : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Katana"))
+        {
+            Debug.Log("CUT!");
+            //speed = 0;
+            DestroyEnemy();
+            upperPos = new Vector3(transform.position.x, transform.position.y + cutSize, transform.position.z);
+
+            if (other.CompareTag("Katana"))
+            {
+                Instantiate(slicedEnemy, transform.position, Quaternion.identity);
+                Instantiate(slicedEnemy, upperPos, Quaternion.identity);
+            }
+
+
+        }
+    }
+
+    void DestroyEnemy()
+    {
+        Destroy(gameObject);
+    }
+
+
 }

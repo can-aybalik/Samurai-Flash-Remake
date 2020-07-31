@@ -43,15 +43,17 @@ public class Projectile : MonoBehaviour
             DestroyProjectile();
             
         }
-        else if (other.CompareTag("Katana"))
+        else if (other.CompareTag("Katana") || other.CompareTag("Block"))
         {
             Debug.Log("CUT!");
             //speed = 0;
             DestroyProjectile();
             upperPos = new Vector3(transform.position.x, transform.position.y + cutSize, transform.position.z);
 
-            Instantiate(slicedBullet, transform.position, Quaternion.identity);
-            Instantiate(slicedBullet, upperPos, Quaternion.identity);
+            if(other.CompareTag("Katana")){
+                Instantiate(slicedBullet, transform.position, Quaternion.identity);
+                Instantiate(slicedBullet, upperPos, Quaternion.identity);
+            }
             
 
         }

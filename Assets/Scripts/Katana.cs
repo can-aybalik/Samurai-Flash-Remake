@@ -7,28 +7,41 @@ public class Katana : MonoBehaviour
 {
     public Transform player;
 
+    PlayerMovement playerMovement;
+
     public float rotationSize;
 
     public Boolean bonusCheck = true;
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        playerMovement = player.GetComponent<PlayerMovement>();
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = player.position;
 
-        if (Input.GetKey("a"))
+        if (!playerMovement.hitted)
         {
-            transform.Rotate(0, -rotationSize, 0);
-        }
 
-        if (Input.GetKey("d"))
-        {
-            transform.Rotate(0, +rotationSize, 0);
-        }
+            if (Input.GetKey("a"))
+            {
+                transform.Rotate(0, -rotationSize, 0);
+            }
 
-        if (Input.GetKey(KeyCode.Space) && bonusCheck)
-        {
-            transform.Rotate(0, +rotationSize*5, 0);
+            if (Input.GetKey("d"))
+            {
+                transform.Rotate(0, +rotationSize, 0);
+            }
+
+            if (Input.GetKey(KeyCode.Space) && bonusCheck)
+            {
+                transform.Rotate(0, +rotationSize * 5, 0);
+            }
         }
     }
 }
