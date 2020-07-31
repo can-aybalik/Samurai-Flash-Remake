@@ -9,15 +9,19 @@ public class Projectile : MonoBehaviour
     private Transform player;
     private Vector3 target;
     private Vector3 upperPos;
+    PlayerMovement playerMovement;
+
+
 
     public float cutSize;
-
     public GameObject slicedBullet;
+
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        playerMovement = player.GetComponent<PlayerMovement>();
         target = new Vector3(player.position.x, player.position.y, player.position.z);
     }
 
@@ -34,8 +38,10 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            DestroyProjectile();
             Debug.Log("HIT!");
+            playerMovement.hitted = true;
+            DestroyProjectile();
+            
         }
         else if (other.CompareTag("Katana"))
         {
