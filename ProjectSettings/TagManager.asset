@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Sphere
   - Block
+  - Cube
+  - Bullet
   layers:
   - Default
   - TransparentFX

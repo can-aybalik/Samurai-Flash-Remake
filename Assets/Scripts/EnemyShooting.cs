@@ -24,11 +24,13 @@ public class EnemyShooting : MonoBehaviour
 
     public float startTimeBtwShots;
 
+    ObjectPool objectPool;
+
     // Start is called before the first frame update
     void Start()
     {
         timeBtwShots = startTimeBtwShots;
-
+        objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector3(player.position.x, player.position.y, player.position.z);
     }
@@ -62,8 +64,11 @@ public class EnemyShooting : MonoBehaviour
 
             if (other.CompareTag("Katana"))
             {
-                Instantiate(slicedEnemy, transform.position, Quaternion.identity);
-                Instantiate(slicedEnemy, upperPos, Quaternion.identity);
+                //Instantiate(slicedEnemy, transform.position, Quaternion.identity);
+                //Instantiate(slicedEnemy, upperPos, Quaternion.identity);
+                objectPool.SpawnFromPool("EnemySliced", transform.position, Quaternion.identity);
+                objectPool.SpawnFromPool("EnemySliced", upperPos, Quaternion.identity);
+
             }
 
 
