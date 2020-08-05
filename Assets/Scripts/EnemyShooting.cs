@@ -55,10 +55,10 @@ public class EnemyShooting : MonoBehaviour
     {
         if (other.CompareTag("Katana"))
         {
-            Debug.Log("CUT!");
+            Debug.Log("ENEMY CUT!");
             //speed = 0;
             DestroyEnemy();
-            upperPos = new Vector3(transform.position.x, transform.position.y + cutSize, transform.position.z);
+            upperPos = new Vector3(transform.position.x + cutSize/8, transform.position.y + cutSize, transform.position.z);
 
             if (other.CompareTag("Katana"))
             {

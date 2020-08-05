@@ -53,6 +53,7 @@ public class Projectile : MonoBehaviour
             if(other.CompareTag("Katana")){
                 Instantiate(slicedBullet, transform.position, Quaternion.identity);
                 Instantiate(slicedBullet, upperPos, Quaternion.identity);
+
             }
             
 
