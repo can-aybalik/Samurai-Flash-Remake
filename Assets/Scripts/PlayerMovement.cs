@@ -16,6 +16,11 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 
+        if(transform.position.y < -15)
+        {
+            FindObjectOfType<GameController>().GameOver();
+        }
+
         if (!hitted)
         {
 

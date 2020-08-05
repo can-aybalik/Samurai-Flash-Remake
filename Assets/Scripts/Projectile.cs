@@ -42,7 +42,7 @@ public class Projectile : MonoBehaviour
             Debug.Log("HIT!");
             playerMovement.hitted = true;
             DestroyProjectile();
-            
+            FindObjectOfType<GameController>().GameOver();
         }
         else if (other.CompareTag("Katana") || other.CompareTag("Block"))
         {
