@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("GAME OVER!");
-            Restart();
+            Invoke("Restart", 1);
         }
     }
 
