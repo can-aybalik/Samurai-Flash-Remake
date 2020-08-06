@@ -8,8 +8,7 @@ public class FinishLine : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("FINISH!");
-
+            FindObjectOfType<GameController>().CompleteLevel();
         }
 
     }
