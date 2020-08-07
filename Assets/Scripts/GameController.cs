@@ -16,7 +16,7 @@ public class GameController : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("GAME OVER!");
-            Invoke("Restart", 1);
+            Invoke("Restart", 2);
         }
     }
     void Restart()
@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour
         Debug.Log("FINISH!");
         levelCompleteUI.SetActive(true);
         FindObjectOfType<PlayerMovement>().rb.drag = 20;
+        
     }
 
     public void LoadNextLevel()
