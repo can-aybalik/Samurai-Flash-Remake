@@ -38,10 +38,7 @@ public class Katana : MonoBehaviour
                 transform.Rotate(0, +rotationSize, 0);
             }
 
-            if (Input.GetKey(KeyCode.Space) && bonusCheck)
-            {
-                transform.Rotate(0, +rotationSize * 5, 0);
-            }
+            
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-        if(transform.position.y < -15)
+        if(transform.position.y < -30)
         {
             FindObjectOfType<GameController>().GameOver();
         }
@@ -42,6 +43,14 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey("d"))
             {
                 rb.AddForce(force * Time.deltaTime, 0, 0);
+            }
+
+            if (FindObjectOfType<GameController>().levelCompleteUI.activeSelf)
+            {
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
             }
 
         }
