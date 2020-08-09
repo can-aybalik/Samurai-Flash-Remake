@@ -16,8 +16,15 @@ public class GameController : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("GAME OVER!");
-            Invoke("Restart", 2);
+            StartCoroutine(RestartWithDelay(1));
         }
+    }
+
+    IEnumerator RestartWithDelay(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        Restart();
     }
     void Restart()
     {
