@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 
     public GameObject levelCompleteUI;
 
+    public GameObject failedUI;
+
     bool isGameOver = false;
 
     public void GameOver()
@@ -16,6 +18,7 @@ public class GameController : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("GAME OVER!");
+            failedUI.SetActive(true);
             StartCoroutine(RestartWithDelay(1));
         }
     } 
