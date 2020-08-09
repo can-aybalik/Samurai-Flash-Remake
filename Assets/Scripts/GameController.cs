@@ -18,16 +18,11 @@ public class GameController : MonoBehaviour
             Debug.Log("GAME OVER!");
             StartCoroutine(RestartWithDelay(1));
         }
-    }
+    } 
 
     IEnumerator RestartWithDelay(float time)
     {
         yield return new WaitForSeconds(time);
-
-        Restart();
-    }
-    void Restart()
-    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
