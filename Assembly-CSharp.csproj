@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyShooting.cs" />
+    <Compile Include="Assets\Block.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

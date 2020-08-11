@@ -10,7 +10,14 @@ public class GameController : MonoBehaviour
 
     public GameObject failedUI;
 
+    public GameObject failedUI2;
+
     bool isGameOver = false;
+
+    private void Start()
+    {
+        failedUI2.SetActive(true);
+    }
 
     public void GameOver()
     {
