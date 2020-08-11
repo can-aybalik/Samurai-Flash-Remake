@@ -10,6 +10,7 @@ TagManager:
   - Block
   - Cube
   - Bullet
+  - Bonus
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Glow
   - 
   - 
   - 

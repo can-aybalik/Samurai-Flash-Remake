@@ -11,10 +11,11 @@ public class Katana : MonoBehaviour
 
     public float rotationSize;
 
-    public Boolean bonusCheck = true;
+    public Boolean bonusCheck;
 
     void Start()
     {
+        bonusCheck = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         playerMovement = player.GetComponent<PlayerMovement>();
         
@@ -38,7 +39,14 @@ public class Katana : MonoBehaviour
                 transform.Rotate(0, +rotationSize, 0);
             }
 
-            
+            if (bonusCheck)
+            {
+                transform.Rotate(0, +rotationSize * 10, 0);
+            }
+
+
         }
+
+
     }
 }
