@@ -41,7 +41,7 @@ public class Katana : MonoBehaviour
 
             if (bonusCheck)
             {
-                transform.Rotate(0, +rotationSize * 10, 0);
+                transform.Rotate(0, +rotationSize * 100, 0);
             }
 
 
