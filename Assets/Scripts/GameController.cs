@@ -14,9 +14,14 @@ public class GameController : MonoBehaviour
 
     bool isGameOver = false;
 
+    Renderer cubeRenderer = null;
+
+    private Transform player;
+
     private void Start()
     {
         failedUI2.SetActive(true);
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     public void GameOver()
@@ -25,6 +30,8 @@ public class GameController : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("GAME OVER!");
+            cubeRenderer = player.GetComponent<Renderer>();
+            cubeRenderer.material.SetColor("_Color", Color.red);
             failedUI.SetActive(true);
             StartCoroutine(RestartWithDelay(1));
         }

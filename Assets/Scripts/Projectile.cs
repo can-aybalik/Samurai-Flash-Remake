@@ -18,9 +18,6 @@ public class Projectile : MonoBehaviour
 
     public GameObject bonus;
 
-    Renderer cubeRenderer = null;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -46,8 +43,6 @@ public class Projectile : MonoBehaviour
             Debug.Log("HIT!");
             playerMovement.hitted = true;
             DestroyProjectile();
-            cubeRenderer = player.GetComponent<Renderer>();
-            cubeRenderer.material.SetColor("_Color", Color.red);
             FindObjectOfType<GameController>().GameOver();
         }
         else if (other.CompareTag("Katana") || other.CompareTag("Block"))

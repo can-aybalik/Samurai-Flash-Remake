@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyShooting.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Platform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

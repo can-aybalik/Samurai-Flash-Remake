@@ -73,6 +73,11 @@ public class EnemyShooting : MonoBehaviour
 
 
         }
+
+        else if (other.CompareTag("Player"))
+        {
+            FindObjectOfType<GameController>().GameOver();
+        }
     }
 
     void DestroyEnemy()
