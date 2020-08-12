@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-        if(transform.position.y < -30)
+        if(transform.position.y < -100)
         {
             FindObjectOfType<GameController>().GameOver();
         }
