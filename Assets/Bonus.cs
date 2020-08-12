@@ -1,31 +1,14 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bonus : MonoBehaviour
 {
-
-    public GameObject bonus;
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        Destroy(bonus);
-        //Start the coroutine we define below named ExampleCoroutine.
-        FindObjectOfType<Katana>().bonusCheck = true;
-        StartCoroutine(ExampleCoroutine());
-        
+        if (other.CompareTag("Player"))
+        {
+            FindObjectOfType<BonusController>().enabled = true;
+        }
     }
-
-    IEnumerator ExampleCoroutine()
-    {
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
-        yield return new WaitForSeconds(5);
-        FindObjectOfType<Katana>().bonusCheck = false;
-    }
-
-
-
-
-
-
 }

@@ -60,13 +60,13 @@
     <Compile Include="Assets\Scripts\Katana.cs" />
     <Compile Include="Assets\Scripts\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\BonusController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Bonus.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyShooting.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
-    <Compile Include="Assets\Bonus.cs" />
-    <Compile Include="Assets\BonusController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
