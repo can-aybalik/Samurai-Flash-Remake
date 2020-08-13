@@ -10,7 +10,6 @@ public class Projectile : MonoBehaviour
     private Transform player;
     private Vector3 target;
     private Vector3 upperPos;
-    PlayerMovement playerMovement;
 
     ObjectPool objectPool;
 
@@ -28,7 +27,6 @@ public class Projectile : MonoBehaviour
         }
         objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        playerMovement = player.GetComponent<PlayerMovement>();
         target = new Vector3(player.position.x, player.position.y, player.position.z);
     }
 
@@ -46,7 +44,6 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("HIT!");
-            playerMovement.hitted = true;
             DestroyProjectile();
             FindObjectOfType<GameController>().GameOver();
         }

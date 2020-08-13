@@ -7,12 +7,12 @@ public class GameController : MonoBehaviour
 {
 
     public GameObject levelCompleteUI;
-
     public GameObject failedUI;
-
     public GameObject failedUI2;
 
     bool isGameOver = false;
+    public bool isShellActive = false;
+
 
     public static bool checkpointEnabled = false;
 
@@ -24,6 +24,7 @@ public class GameController : MonoBehaviour
     {
         failedUI2.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        cubeRenderer = player.GetComponent<Renderer>();
         if (checkpointEnabled)
         {
             player.localPosition = new Vector3(0, -72, 459);
@@ -34,12 +35,21 @@ public class GameController : MonoBehaviour
     {
         if (!isGameOver)
         {
-            isGameOver = true;
-            Debug.Log("GAME OVER!");
-            cubeRenderer = player.GetComponent<Renderer>();
-            cubeRenderer.material.SetColor("_Color", Color.red);
-            failedUI.SetActive(true);
-            StartCoroutine(RestartWithDelay(1));
+            if (!isShellActive)
+            {
+                player.GetComponent<PlayerMovement>().hitted = true;
+                isGameOver = true;
+                Debug.Log("GAME OVER!");
+                cubeRenderer.material.SetColor("_Color", Color.red);
+                failedUI.SetActive(true);
+                StartCoroutine(RestartWithDelay(1));
+            }
+            else
+            {
+                cubeRenderer.material.SetColor("_Color", Color.white);
+                isShellActive = false;
+            }
+            
         }
     } 
 
@@ -60,6 +70,12 @@ public class GameController : MonoBehaviour
     public void LoadNextLevel()
     {
         Debug.Log("NEXT LEVEL!");
+    }
+
+    public void activateShell()
+    {
+        cubeRenderer.material.SetColor("_Color", Color.green);
+        isShellActive = true;
     }
 
 

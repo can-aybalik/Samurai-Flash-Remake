@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bonus : MonoBehaviour
+public class Shell : MonoBehaviour
 {
 
     private void Update()
@@ -14,7 +14,8 @@ public class Bonus : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<BonusController>().enabled = true;      
+            Destroy(gameObject);
+            FindObjectOfType<GameController>().activateShell();
         }
     }
 }
