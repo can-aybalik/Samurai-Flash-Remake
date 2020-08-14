@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        failedUI2.SetActive(true);
+        //failedUI2.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player").transform;
         cubeRenderer = player.GetComponent<Renderer>();
         if (checkpointEnabled)

@@ -23,6 +23,8 @@ public class EnemyShooting : MonoBehaviour
     {
         if (isTracking)
             trackingPlayer = true;
+        else
+            trackingPlayer = false;
 
         timeBtwShots = startTimeBtwShots;
         objectPool = ObjectPool.Instance;

@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float force;
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
 
         if(transform.position.y < -100)
@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (!hitted)
         {
+            Debug.Log(Time.timeScale);
 
             if (Input.GetKey("w"))
             {
@@ -37,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKey("a"))
             {
-                rb.AddForce(-force * Time.deltaTime, 0, 0);
+                rb.AddForce(-force * Time.deltaTime , 0, 0);
             }
 
             if (Input.GetKey("d"))
@@ -51,6 +52,17 @@ public class PlayerMovement : MonoBehaviour
                 {
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 }
+            }
+
+            if(Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
+            {
+                //Time flows
+                Time.timeScale = 1;
+            }
+            else
+            {
+                //Stop Time
+                Time.timeScale = 0;
             }
 
         }
