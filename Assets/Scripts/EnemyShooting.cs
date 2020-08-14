@@ -5,30 +5,25 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-
     private Transform player;
-
     public float speed;
-    
     private Vector3 target;
-
     public GameObject bullet;
-
     public GameObject slicedEnemy;
-
     private Vector3 upperPos;
-
     public float cutSize;
-
     private float timeBtwShots;
-
     public float startTimeBtwShots;
-
     ObjectPool objectPool;
+    public bool isTracking;
+    public  static bool trackingPlayer;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (isTracking)
+            trackingPlayer = true;
+
         timeBtwShots = startTimeBtwShots;
         objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;

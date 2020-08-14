@@ -26,8 +26,8 @@ public class Block : MonoBehaviour
 
             if (other.CompareTag("Katana"))
             {
-                objectPool.SpawnFromPool("BlockSliced", lowerPos, Quaternion.identity);
-                objectPool.SpawnFromPool("BlockSliced2", upperPos, Quaternion.identity);
+                objectPool.SpawnFromPool("BlockSliced", lowerPos, gameObject.transform.rotation);
+                objectPool.SpawnFromPool("BlockSliced2", upperPos, gameObject.transform.rotation);
             }
         }
     }

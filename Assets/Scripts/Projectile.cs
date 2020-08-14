@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,21 +11,14 @@ public class Projectile : MonoBehaviour
     private Transform player;
     private Vector3 target;
     private Vector3 upperPos;
-
     ObjectPool objectPool;
-
     public float cutSize;
     public GameObject slicedBullet;
-
     public GameObject bonus;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            speed = 15;
-        }
         objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector3(player.position.x, player.position.y, player.position.z);
@@ -33,10 +27,22 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        if (EnemyShooting.trackingPlayer)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            if (transform.position.x == player.position.x && transform.position.y == player.position.y && transform.position.z == player.position.z)
+                DestroyProjectile();
+        }
+        else
+        {
 
-        if (transform.position.x == target.x && transform.position.y == target.y && transform.position.z == target.z)
-            DestroyProjectile();
+            transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+            if (transform.position.x == target.x && transform.position.y == target.y && transform.position.z == target.z)
+                DestroyProjectile();
+        }
+        
+
+        
     }
 
     private void OnTriggerEnter(Collider other)
