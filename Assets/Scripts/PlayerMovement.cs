@@ -57,12 +57,12 @@ public class PlayerMovement : MonoBehaviour
             if(Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
             {
                 //Time flows
-                Time.timeScale = 1;
+                TimeController.continueTime();
             }
             else
             {
                 //Stop Time
-                Time.timeScale = 0;
+                TimeController.freezeTime();
             }
 
         }

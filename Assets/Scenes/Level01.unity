@@ -172,6 +172,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &74021387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -685,6 +686,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &237618999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1334,6 +1336,7 @@ MonoBehaviour:
   slicedEnemy: {fileID: 4906135129087457485, guid: 651d1dccad74c47488e0befafd3c5cc7, type: 3}
   cutSize: 1
   startTimeBtwShots: 1
+  isTracking: 0
 --- !u!1 &542726477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,6 +1714,7 @@ MonoBehaviour:
   levelCompleteUI: {fileID: 240402685}
   failedUI: {fileID: 1480949107}
   failedUI2: {fileID: 1543396799}
+  isShellActive: 0
 --- !u!4 &640596576
 Transform:
   m_ObjectHideFlags: 0
@@ -1774,6 +1778,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &653057621
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2287,6 +2292,7 @@ MonoBehaviour:
   slicedEnemy: {fileID: 4906135129087457485, guid: 651d1dccad74c47488e0befafd3c5cc7, type: 3}
   cutSize: 1
   startTimeBtwShots: 2
+  isTracking: 0
 --- !u!136 &982302185
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2413,6 +2419,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &1211626322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2524,6 +2531,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &1283668806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2635,6 +2643,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &1329853996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3031,6 +3040,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &1837323138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3142,6 +3152,7 @@ MonoBehaviour:
   speed: 0
   cutSize: 0.22
   slicedBullet: {fileID: 4614946290294231690, guid: 02f184011dc2fe94d9735017b4719c02, type: 3}
+  bonus: {fileID: 0}
 --- !u!65 &2118270271
 BoxCollider:
   m_ObjectHideFlags: 0

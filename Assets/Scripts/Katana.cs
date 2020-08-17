@@ -24,7 +24,7 @@ public class Katana : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.position;
+        transform.position = new Vector3(player.position.x, player.position.y, player.position.z);
 
         if (!playerMovement.hitted)
         {
