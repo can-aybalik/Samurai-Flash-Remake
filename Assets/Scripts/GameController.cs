@@ -22,7 +22,9 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        //failedUI2.SetActive(true);
+        FindObjectOfType<PlayerMovement>().cutscene = true;
+        TimeController.continueTime();
+        failedUI2.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player").transform;
         cubeRenderer = player.GetComponent<Renderer>();
         if (checkpointEnabled)
@@ -61,6 +63,8 @@ public class GameController : MonoBehaviour
 
     public void CompleteLevel()
     {
+        FindObjectOfType<PlayerMovement>().cutscene = true;
+        TimeController.continueTime();
         Debug.Log("FINISH!");
         levelCompleteUI.SetActive(true);
         FindObjectOfType<PlayerMovement>().rb.drag = 20;
@@ -77,6 +81,8 @@ public class GameController : MonoBehaviour
         cubeRenderer.material.SetColor("_Color", Color.green);
         isShellActive = true;
     }
+
+    
 
 
 

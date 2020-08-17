@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     
     public float force;
 
+    public bool cutscene = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -24,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (!hitted)
         {
-            Debug.Log(Time.timeScale);
 
             if (Input.GetKey("w"))
             {
@@ -54,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            if(Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
+            if((Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) || cutscene)
             {
                 //Time flows
                 TimeController.continueTime();

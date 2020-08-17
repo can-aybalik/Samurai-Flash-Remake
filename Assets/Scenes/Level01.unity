@@ -1483,6 +1483,7 @@ MonoBehaviour:
   rb: {fileID: 570352906}
   hitted: 0
   force: 1000
+  cutscene: 0
 --- !u!54 &570352906
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2908,6 +2909,7 @@ GameObject:
   - component: {fileID: 1543396803}
   - component: {fileID: 1543396802}
   - component: {fileID: 1543396801}
+  - component: {fileID: 1543396804}
   m_Layer: 5
   m_Name: FailedUI2
   m_TagString: Untagged
@@ -2991,6 +2993,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543396799}
   m_CullTransparentMesh: 0
+--- !u!114 &1543396804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543396799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ca6685b4441b943a59c1aba541a865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1837323135
 GameObject:
   m_ObjectHideFlags: 0

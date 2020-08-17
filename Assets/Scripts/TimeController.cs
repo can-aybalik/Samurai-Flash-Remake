@@ -14,4 +14,12 @@ public class TimeController : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
+    public void disableCutscene()
+    {
+        FindObjectOfType<PlayerMovement>().cutscene = false;
+        Debug.Log("GİRDİ!");
+    }
+
+
 }
