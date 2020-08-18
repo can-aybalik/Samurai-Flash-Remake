@@ -11,6 +11,8 @@ TagManager:
   - Cube
   - Bullet
   - Bonus
+  - Level01
+  - ObjectPool
   layers:
   - Default
   - TransparentFX

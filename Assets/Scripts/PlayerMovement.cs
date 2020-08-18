@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
 
     public bool cutscene = false;
 
+    public GameObject level01;
+
+    public GameObject level02;
+
+    public GameObject objectPool;
+
     // Update is called once per frame
     void Update()
     {
@@ -51,7 +57,16 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.Space))
                 {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+                    FindObjectOfType<ObjectPool>().clearPool();
+                    FindObjectOfType<GameController>().failedUI2.SetActive(false);
+                    FindObjectOfType<GameController>().levelCompleteUI.SetActive(false);
+                    FindObjectOfType<GameController>().failedUI2.SetActive(true);
+                    level01.SetActive(false);
+                    level02.SetActive(true);
+
+                    rb.position = new Vector3(0, (float)0.5, -6);
+                    rb.drag = 1;
                 }
             }
 

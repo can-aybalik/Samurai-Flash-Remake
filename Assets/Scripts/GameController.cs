@@ -27,10 +27,6 @@ public class GameController : MonoBehaviour
         failedUI2.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player").transform;
         cubeRenderer = player.GetComponent<Renderer>();
-        if (checkpointEnabled)
-        {
-            player.localPosition = new Vector3(0, -72, 459);
-        }
     }
 
     public void GameOver()
