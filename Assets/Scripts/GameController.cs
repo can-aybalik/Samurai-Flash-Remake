@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-
+    public GameObject objectPoolInstance;
     public GameObject levelCompleteUI;
     public GameObject failedUI;
     public GameObject failedUI2;
+    public GameObject[] levels;
 
     bool isGameOver = false;
     public bool isShellActive = false;
@@ -78,8 +79,17 @@ public class GameController : MonoBehaviour
         isShellActive = true;
     }
 
-    
-
-
+    public void clearOldLevel()
+    {
+        for (int i = 0; i < objectPoolInstance.transform.childCount; i++)
+        {
+            objectPoolInstance.transform.GetChild(i).gameObject.SetActive(false);
+        }
+        failedUI2.SetActive(false);
+        levelCompleteUI.SetActive(false);
+        failedUI2.SetActive(true);
+        levels[0].SetActive(false);
+        levels[1].SetActive(true);
+    }
 
 }

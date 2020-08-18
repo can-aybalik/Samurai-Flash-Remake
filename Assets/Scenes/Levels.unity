@@ -2194,8 +2194,6 @@ MonoBehaviour:
   hitted: 0
   force: 1000
   cutscene: 0
-  level01: {fileID: 491555707}
-  level02: {fileID: 823284220}
   objectPool: {fileID: 504229159}
 --- !u!54 &570352906
 Rigidbody:
@@ -2573,9 +2571,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91aa3377db2ecb945867aa822f770dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectPoolInstance: {fileID: 504229159}
   levelCompleteUI: {fileID: 240402685}
   failedUI: {fileID: 1480949107}
   failedUI2: {fileID: 1543396799}
+  levels:
+  - {fileID: 491555707}
+  - {fileID: 823284220}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   isShellActive: 0
 --- !u!4 &640596576
 Transform:

@@ -6,7 +6,7 @@ using UnityEngine;
 public class ObjectPool : MonoBehaviour
 {
 
-    public GameObject objectPoolInstance;
+    public GameObject objectPoolInstance; 
 
     [System.Serializable]
     public class Pool
@@ -62,13 +62,7 @@ public class ObjectPool : MonoBehaviour
         return objectToSpawn;
     }
 
-    public void clearPool()
-    {
-        for(int i = 0; i < objectPoolInstance.transform.childCount; i++)
-        {
-            objectPoolInstance.transform.GetChild(i).gameObject.SetActive(false);
-        }
-    }
+    
 
 
 
