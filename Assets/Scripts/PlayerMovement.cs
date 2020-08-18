@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
 
     public bool cutscene = false;
 
+    bool falling = false;
+
     public GameObject objectPool;
 
     public GameObject playerObj;
@@ -25,9 +27,15 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        if(transform.position.y < -100)
+        if (transform.position.y < -(float)0.5)
+        {
+            falling = true;
+        }
+
+        if (transform.position.y < -10)
         {
             FindObjectOfType<GameController>().GameOver();
+            falling = false;
         }
 
         if (!hitted)
@@ -67,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            if((Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) || cutscene)
+            if((Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) || cutscene || falling)
             {
                 //Time flows
                 TimeController.continueTime();
