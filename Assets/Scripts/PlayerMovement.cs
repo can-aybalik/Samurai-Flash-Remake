@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject playerObj;
 
+    public GameObject katanaObj;
+
     // Update is called once per frame
     void Update()
     {
@@ -55,11 +57,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.Space))
                 {
-                    playerObj.GetComponent<TrailRenderer>().enabled = false;
                     FindObjectOfType<GameController>().clearOldLevel();
-                    rb.position = new Vector3(0, (float)0.5, -6);
+                    playerObj.GetComponent<TrailRenderer>().enabled = false;
+                    playerObj.transform.localPosition = new Vector3(0, (float)0.5, -6);
+                    katanaObj.transform.rotation = new Quaternion(0, 0, 0, 0);
                     rb.drag = 1;
                     playerObj.GetComponent<TrailRenderer>().enabled = true;
+
                 }
             }
 
@@ -67,6 +71,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 //Time flows
                 TimeController.continueTime();
+        
+
             }
             else
             {

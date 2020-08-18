@@ -1448,7 +1448,7 @@ RectTransform:
   - {fileID: 1480949108}
   - {fileID: 1543396800}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1819,7 +1819,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &514805771
 GameObject:
@@ -1869,7 +1869,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slicedEnemy: {fileID: 1556144146592350001, guid: a0a0acf562a04054f97005737aee4255, type: 3}
   cutSize: 0.75
-  objectPool: {fileID: 0}
 --- !u!65 &514805774
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2195,6 +2194,8 @@ MonoBehaviour:
   force: 1000
   cutscene: 0
   objectPool: {fileID: 504229159}
+  playerObj: {fileID: 570352904}
+  katanaObj: {fileID: 663608904}
 --- !u!54 &570352906
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2285,7 +2286,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &570352911
 TrailRenderer:
@@ -2571,6 +2572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91aa3377db2ecb945867aa822f770dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObj: {fileID: 570352904}
   objectPoolInstance: {fileID: 504229159}
   levelCompleteUI: {fileID: 240402685}
   failedUI: {fileID: 1480949107}
@@ -2581,6 +2583,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  currentLevelIndex: 0
   isShellActive: 0
 --- !u!4 &640596576
 Transform:
@@ -2876,7 +2879,7 @@ Transform:
   m_LocalScale: {x: 0.30631, y: 1, z: 0.024883}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673755500
 GameObject:
@@ -3063,7 +3066,7 @@ Transform:
   m_LocalScale: {x: -3.1399999, y: 3.1599998, z: 20.76}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 22.849, y: 13.9, z: -53.12}
 --- !u!1 &809362631
 GameObject:
@@ -3277,7 +3280,7 @@ Transform:
   m_LocalScale: {x: 4.28, y: 2.2800002, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 15.18, y: 0.36, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -3557,7 +3560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slicedEnemy: {fileID: 1556144146592350001, guid: a0a0acf562a04054f97005737aee4255, type: 3}
   cutSize: 0.75
-  objectPool: {fileID: 504229160}
 --- !u!65 &1346210131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3858,7 +3860,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slicedEnemy: {fileID: 1556144146592350001, guid: a0a0acf562a04054f97005737aee4255, type: 3}
   cutSize: 0.75
-  objectPool: {fileID: 504229160}
 --- !u!65 &1375664404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5211,7 +5212,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slicedEnemy: {fileID: 1556144146592350001, guid: a0a0acf562a04054f97005737aee4255, type: 3}
   cutSize: 0.75
-  objectPool: {fileID: 0}
 --- !u!65 &2095627951
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -14,7 +14,12 @@ public class Block : MonoBehaviour
 
     public float cutSize;
 
-    public ObjectPool objectPool;
+    ObjectPool objectPool;
+
+    void Start()
+    {
+        objectPool = ObjectPool.Instance;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

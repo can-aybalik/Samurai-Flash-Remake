@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+    public GameObject playerObj;
     public GameObject objectPoolInstance;
     public GameObject levelCompleteUI;
     public GameObject failedUI;
     public GameObject failedUI2;
     public GameObject[] levels;
+
+    public int currentLevelIndex = 0;
 
     bool isGameOver = false;
     public bool isShellActive = false;
@@ -68,11 +71,6 @@ public class GameController : MonoBehaviour
         
     }
 
-    public void LoadNextLevel()
-    {
-        Debug.Log("NEXT LEVEL!");
-    }
-
     public void activateShell()
     {
         cubeRenderer.material.SetColor("_Color", Color.green);
@@ -88,8 +86,10 @@ public class GameController : MonoBehaviour
         failedUI2.SetActive(false);
         levelCompleteUI.SetActive(false);
         failedUI2.SetActive(true);
-        levels[0].SetActive(false);
-        levels[1].SetActive(true);
+        levels[currentLevelIndex].SetActive(false);
+        currentLevelIndex++;
+        levels[currentLevelIndex].SetActive(true);
+        playerObj.GetComponent<TrailRenderer>().enabled = true;
     }
 
 }
