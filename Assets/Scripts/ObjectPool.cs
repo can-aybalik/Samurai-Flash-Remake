@@ -40,6 +40,7 @@ public class ObjectPool : MonoBehaviour
             {
                 GameObject obj = Instantiate(pool.prefab);
                 obj.transform.parent = objectPoolInstance.transform;
+                //obj.GetComponent<TrailRenderer>().enabled = false;
                 obj.SetActive(false);
 
                 objectPool.Enqueue(obj);
