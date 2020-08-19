@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
 
     public Boolean hitted = false;
-    
+
     public float force;
 
     public bool cutscene = false;
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
             falling = true;
         }
 
-        if (transform.position.y < -10)
+        if (transform.position.y < -5)
         {
             FindObjectOfType<GameController>().GameOver();
             falling = false;
@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKey("a"))
             {
-                rb.AddForce(-force * Time.deltaTime , 0, 0);
+                rb.AddForce(-force * Time.deltaTime, 0, 0);
             }
 
             if (Input.GetKey("d"))
@@ -70,17 +70,17 @@ public class PlayerMovement : MonoBehaviour
                     playerObj.transform.localPosition = new Vector3(0, (float)0.5, -6);
                     katanaObj.transform.rotation = new Quaternion(0, 0, 0, 0);
                     rb.drag = 1;
-                    playerObj.GetComponent<TrailRenderer>().enabled = true;
-
                 }
             }
 
-            if((Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) || cutscene || falling)
+            if ((Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) || cutscene || falling)
             {
                 //Time flows
                 TimeController.continueTime();
-        
-
+                if (!playerObj.GetComponent<TrailRenderer>().enabled && !cutscene)
+                {
+                    playerObj.GetComponent<TrailRenderer>().enabled = true;
+                }
             }
             else
             {
