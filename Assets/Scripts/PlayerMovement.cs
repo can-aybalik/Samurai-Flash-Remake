@@ -41,7 +41,8 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isMoving", false);
         }
 
-            if (transform.position.y < -(float)0.5)
+
+        if (transform.position.y < -(float)0.5)
         {
             falling = true;
         }
@@ -56,32 +57,23 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKey("w"))
             {
-                rb.AddForce(0, 0, force * Time.deltaTime);
+                rb.AddRelativeForce(0, 0, force * Time.deltaTime);
 
-                if(transform.rotation.y < 0)
-                {
-                    transform.Rotate(0, rotationSize, 0);
-                }
-                else if(transform.rotation.y > 0)
-                {
-                    transform.Rotate(0, -rotationSize, 0);
-                }
             }
 
             if (Input.GetKey("s"))
             {
-                rb.AddForce(0, 0, -force * Time.deltaTime);
+                rb.AddRelativeForce(0, 0, -force * Time.deltaTime);
+
             }
 
             if (Input.GetKey("a"))
             {
-                rb.AddForce(-force * Time.deltaTime, 0, 0);
                 transform.Rotate(0, -rotationSize, 0);
             }
 
             if (Input.GetKey("d"))
             {
-                rb.AddForce(force * Time.deltaTime, 0, 0);
                 transform.Rotate(0, +rotationSize, 0);
             }
 
@@ -113,6 +105,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 //Stop Time
                 TimeController.freezeTime();
+                rb.velocity = Vector3.zero;
             }
         }
     }
