@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject katanaObj;
 
+    public float rotationSize;
+
     // Update is called once per frame
     void Update()
     {
@@ -54,11 +56,13 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey("a"))
             {
                 rb.AddForce(-force * Time.deltaTime, 0, 0);
+                transform.Rotate(0, -rotationSize, 0);
             }
 
             if (Input.GetKey("d"))
             {
                 rb.AddForce(force * Time.deltaTime, 0, 0);
+                transform.Rotate(0, +rotationSize, 0);
             }
 
             if (FindObjectOfType<GameController>().levelCompleteUI.activeSelf)
