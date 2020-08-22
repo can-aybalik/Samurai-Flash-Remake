@@ -42,7 +42,7 @@ public class GameController : MonoBehaviour
                 player.GetComponent<PlayerMovement>().hitted = true;
                 isGameOver = true;
                 Debug.Log("GAME OVER!");
-                cubeRenderer.material.SetColor("_Color", Color.red);
+                //cubeRenderer.material.SetColor("_Color", Color.red);
                 failedUI.SetActive(true);
                 StartCoroutine(RestartWithDelay(1));
             }

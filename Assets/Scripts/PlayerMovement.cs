@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -25,11 +27,21 @@ public class PlayerMovement : MonoBehaviour
 
     public float rotationSize;
 
+    public Animator anim;
+
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
+        {
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            anim.SetBool("isMoving", false);
+        }
 
-        if (transform.position.y < -(float)0.5)
+            if (transform.position.y < -(float)0.5)
         {
             falling = true;
         }
@@ -42,10 +54,18 @@ public class PlayerMovement : MonoBehaviour
 
         if (!hitted)
         {
-
             if (Input.GetKey("w"))
             {
                 rb.AddForce(0, 0, force * Time.deltaTime);
+
+                if(transform.rotation.y < 0)
+                {
+                    transform.Rotate(0, rotationSize, 0);
+                }
+                else if(transform.rotation.y > 0)
+                {
+                    transform.Rotate(0, -rotationSize, 0);
+                }
             }
 
             if (Input.GetKey("s"))
@@ -70,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetKey(KeyCode.Space))
                 {
                     FindObjectOfType<GameController>().clearOldLevel();
-                    playerObj.GetComponent<TrailRenderer>().enabled = false;
+                    //playerObj.GetComponent<TrailRenderer>().enabled = false;
                     playerObj.transform.localPosition = new Vector3(0, (float)0.5, -6);
                     katanaObj.transform.rotation = new Quaternion(0, 0, 0, 0);
                     rb.drag = 1;
@@ -81,18 +101,19 @@ public class PlayerMovement : MonoBehaviour
             {
                 //Time flows
                 TimeController.continueTime();
+
+                /*
                 if (!playerObj.GetComponent<TrailRenderer>().enabled && !cutscene)
                 {
                     playerObj.GetComponent<TrailRenderer>().enabled = true;
                 }
+                */
             }
             else
             {
                 //Stop Time
                 TimeController.freezeTime();
             }
-
         }
     }
-
 }
