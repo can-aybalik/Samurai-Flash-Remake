@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
     {
         objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        target = new Vector3(player.position.x, player.position.y, player.position.z);
+        target = new Vector3(player.position.x, player.position.y + 1, player.position.z);
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class Projectile : MonoBehaviour
     {
         if (EnemyShooting.trackingPlayer)
         {
-            transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(player.position.x, player.position.y + 1, player.position.z), speed * Time.deltaTime);
             if (transform.position.x == player.position.x && transform.position.y == player.position.y && transform.position.z == player.position.z)
                 DestroyProjectile();
         }
