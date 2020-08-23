@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\ObjectPool.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\TimeController.cs" />
      <Compile Include="Assets\Scripts\Platform.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Shell.cs" />
@@ -68,7 +69,6 @@
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\EnemyShooting.cs" />
      <Compile Include="Assets\Scripts\Block.cs" />
-     <Compile Include="Assets\Scripts\TimeController.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/canay/New Unity Project/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

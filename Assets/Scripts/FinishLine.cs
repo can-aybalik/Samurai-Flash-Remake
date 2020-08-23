@@ -8,8 +8,11 @@ public class FinishLine : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            FindObjectOfType<PlayerMovement>().anim.SetBool("isFinished", true);
+            FindObjectOfType<FollowPlayer>().finished = true;
             FindObjectOfType<GameController>().CompleteLevel();
         }
 
     }
+
 }

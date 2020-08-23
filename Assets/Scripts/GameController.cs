@@ -66,9 +66,14 @@ public class GameController : MonoBehaviour
         FindObjectOfType<PlayerMovement>().cutscene = true;
         TimeController.continueTime();
         Debug.Log("FINISH!");
-        levelCompleteUI.SetActive(true);
         FindObjectOfType<PlayerMovement>().rb.drag = 20;
-        
+        Invoke("showLevelCompleteUI", 2);
+
+    }
+
+    public void showLevelCompleteUI()
+    {
+        levelCompleteUI.SetActive(true);
     }
 
     public void activateShell()
@@ -90,6 +95,7 @@ public class GameController : MonoBehaviour
         currentLevelIndex++;
         levels[currentLevelIndex].SetActive(true);
         playerObj.GetComponent<TrailRenderer>().enabled = true;
+        FindObjectOfType<FollowPlayer>().finished = false;
     }
 
 }
