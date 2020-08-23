@@ -91,11 +91,14 @@ public class GameController : MonoBehaviour
         failedUI2.SetActive(false);
         levelCompleteUI.SetActive(false);
         failedUI2.SetActive(true);
+        FindObjectOfType<FollowPlayer>().finished = false;
         levels[currentLevelIndex].SetActive(false);
         currentLevelIndex++;
         levels[currentLevelIndex].SetActive(true);
-        playerObj.GetComponent<TrailRenderer>().enabled = true;
-        FindObjectOfType<FollowPlayer>().finished = false;
+        FindObjectOfType<FollowPlayer>().resetCameraRotation();
+        FindObjectOfType<PlayerMovement>().anim.SetBool("isFinished", false);
+        //playerObj.GetComponent<TrailRenderer>().enabled = true;
+
     }
 
 }

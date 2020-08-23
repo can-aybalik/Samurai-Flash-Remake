@@ -7,14 +7,16 @@ public class FollowPlayer : MonoBehaviour
     public Transform player;
     public Vector3 offset;
     public bool finished = false;
+    private Transform resetCamera;
+
 
     // Update is called once per frame
     void Update()
     {
-
         if (!finished)
         {
             transform.position = player.position + offset;
+            
         }
         
 
@@ -26,7 +28,8 @@ public class FollowPlayer : MonoBehaviour
             
     }
 
-
-
-
+    public void resetCameraRotation()
+    {
+        transform.eulerAngles = new Vector3((float)15.18, (float)0.36, 0);
+    }
 }

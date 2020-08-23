@@ -23,8 +23,6 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject playerObj;
 
-    public GameObject katanaObj;
-
     public float rotationSize;
 
     public Animator anim;
@@ -83,8 +81,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     FindObjectOfType<GameController>().clearOldLevel();
                     //playerObj.GetComponent<TrailRenderer>().enabled = false;
-                    playerObj.transform.localPosition = new Vector3(0, (float)0.5, -6);
-                    katanaObj.transform.rotation = new Quaternion(0, 0, 0, 0);
+                    playerObj.transform.position = new Vector3(0, 0, 0);
                     rb.drag = 1;
                 }
             }
