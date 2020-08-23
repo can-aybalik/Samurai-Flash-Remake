@@ -19,6 +19,8 @@ public class Block : MonoBehaviour
     void Start()
     {
         objectPool = ObjectPool.Instance;
+      
+      
     }
 
     private void OnTriggerEnter(Collider other)
