@@ -43,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         if (transform.position.y < -(float)0.5)
         {
             falling = true;
+            anim.SetBool("isFalling", true);
         }
 
         if (transform.position.y < -5)

@@ -43,7 +43,7 @@ public class BossController : MonoBehaviour
 
     private void Update()
     {
-        offset = new Vector3(playerObj.transform.position.x + 2, playerObj.transform.position.y, playerObj.transform.position.z);
+        offset = new Vector3(playerObj.transform.position.x + (float)1.8, playerObj.transform.position.y, playerObj.transform.position.z);
         transform.LookAt(offset);
 
         if (Math.Abs(transform.position.z - GameObject.FindGameObjectWithTag("Player").transform.position.z) < 20)
