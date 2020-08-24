@@ -25,6 +25,7 @@ public class BossController : MonoBehaviour
     public float startTimeBtwShots;
     public GameObject bullet;
     public GameObject gun;
+    public bool setFire = false;
 
     private void Start()
     {
@@ -47,15 +48,11 @@ public class BossController : MonoBehaviour
 
         if (Math.Abs(transform.position.z - GameObject.FindGameObjectWithTag("Player").transform.position.z) < 20)
         {
-            if (timeBtwShots < -0)
+            if (setFire)
             {
                 bulletPos = new Vector3(gun.transform.position.x, gun.transform.position.y, gun.transform.position.z);
                 Instantiate(bullet, bulletPos, Quaternion.identity);
-                timeBtwShots = startTimeBtwShots;
-            }
-            else
-            {
-                timeBtwShots -= Time.deltaTime;
+                setFire = false;
             }
         }
     }
@@ -98,4 +95,11 @@ public class BossController : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    void OpenFire()
+    {
+        setFire = true;
+    }
+
+
 }
