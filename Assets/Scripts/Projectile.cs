@@ -15,10 +15,12 @@ public class Projectile : MonoBehaviour
     public float cutSize;
     public GameObject slicedBullet;
     public GameObject bonus;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = FindObjectOfType<PlayerMovement>().anim;
         objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector3(player.position.x, player.position.y + 1, player.position.z);
@@ -50,6 +52,7 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("HIT!");
+            anim.SetBool("isShot", true);
             DestroyProjectile();
             FindObjectOfType<GameController>().GameOver();
         }

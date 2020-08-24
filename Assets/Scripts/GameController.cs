@@ -44,7 +44,7 @@ public class GameController : MonoBehaviour
                 Debug.Log("GAME OVER!");
                 //cubeRenderer.material.SetColor("_Color", Color.red);
                 failedUI.SetActive(true);
-                StartCoroutine(RestartWithDelay(1));
+                StartCoroutine(RestartWithDelay((float)2.18));
             }
             else
             {
