@@ -17,6 +17,7 @@ public class EnemyShooting : MonoBehaviour
     ObjectPool objectPool;
     public bool isTracking;
     public  static bool trackingPlayer;
+    
 
     // Start is called before the first frame update
     void Start()
