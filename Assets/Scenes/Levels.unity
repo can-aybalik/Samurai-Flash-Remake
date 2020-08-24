@@ -1193,6 +1193,9 @@ MonoBehaviour:
   - tag: Head
     prefab: {fileID: 7135210634444063467, guid: 37b2b12e05168954381c4e970c604e40, type: 3}
     size: 10
+  - tag: Hat
+    prefab: {fileID: 6720630438953200090, guid: 869a021cf6e00d4498ad495774cacbc6, type: 3}
+    size: 10
 --- !u!4 &504229161
 Transform:
   m_ObjectHideFlags: 0
@@ -3489,6 +3492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c3ab70f92dd11944acbae8f8de5ecc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObj: {fileID: 1899852911}
   cutSize: 1
 --- !u!1 &1234243343
 GameObject:

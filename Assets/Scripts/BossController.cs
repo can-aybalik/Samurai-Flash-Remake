@@ -5,17 +5,26 @@ using UnityEngine.UIElements;
 
 public class BossController : MonoBehaviour
 {
-   
+    public GameObject playerObj;
+    Vector3 offset;
     private Vector3 upperPos;
     public float cutSize;
     ObjectPool objectPool;
     Vector3 bodyPosition;
+    Vector3 hatPosition;
     Quaternion headRotation;
     Quaternion bodyRotation;
 
     private void Start()
     {
+        
         objectPool = ObjectPool.Instance;
+    }
+
+    private void Update()
+    {
+        offset = new Vector3(playerObj.transform.position.x + 2, playerObj.transform.position.y, playerObj.transform.position.z);
+        transform.LookAt(offset);
     }
 
 
@@ -31,12 +40,14 @@ public class BossController : MonoBehaviour
             if (other.CompareTag("Katana"))
             {
                 bodyPosition = new Vector3(transform.position.x, transform.position.y + (float)0.2, transform.position.z);
-                bodyRotation = new Quaternion(transform.rotation.x + (float)0.7, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+                hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.5, transform.position.z);
+                bodyRotation = new Quaternion(transform.rotation.x + (float)0.6, transform.rotation.y, transform.rotation.z, transform.rotation.w);
                 headRotation = new Quaternion(transform.rotation.x + (float)0.5, transform.rotation.y, transform.rotation.z, transform.rotation.w);
                 //Instantiate(slicedEnemy, transform.position, Quaternion.identity);
                 //Instantiate(slicedEnemy, upperPos, Quaternion.identity);
                 objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
                 objectPool.SpawnFromPool("Head", upperPos, headRotation);
+                objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
 
             }
 
