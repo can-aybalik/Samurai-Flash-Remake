@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -8,23 +9,55 @@ public class BossController : MonoBehaviour
     public GameObject playerObj;
     Vector3 offset;
     private Vector3 upperPos;
+    private Vector3 bulletPos;
     public float cutSize;
     ObjectPool objectPool;
     Vector3 bodyPosition;
     Vector3 hatPosition;
+    Vector3 gunPosition;
     Quaternion headRotation;
     Quaternion bodyRotation;
+    private Transform player;
+    private Vector3 target;
+    public bool isTracking;
+    public static bool trackingPlayer;
+    private float timeBtwShots;
+    public float startTimeBtwShots;
+    public GameObject bullet;
+    public GameObject gun;
 
     private void Start()
     {
-        
+        if (isTracking)
+            trackingPlayer = true;
+        else
+            trackingPlayer = false;
+
+        timeBtwShots = startTimeBtwShots;
         objectPool = ObjectPool.Instance;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        target = new Vector3(player.position.x, player.position.y, player.position.z);
+        
     }
 
     private void Update()
     {
         offset = new Vector3(playerObj.transform.position.x + 2, playerObj.transform.position.y, playerObj.transform.position.z);
         transform.LookAt(offset);
+
+        if (Math.Abs(transform.position.z - GameObject.FindGameObjectWithTag("Player").transform.position.z) < 20)
+        {
+            if (timeBtwShots < -0)
+            {
+                bulletPos = new Vector3(gun.transform.position.x, gun.transform.position.y, gun.transform.position.z);
+                Instantiate(bullet, bulletPos, Quaternion.identity);
+                timeBtwShots = startTimeBtwShots;
+            }
+            else
+            {
+                timeBtwShots -= Time.deltaTime;
+            }
+        }
     }
 
 
@@ -41,6 +74,7 @@ public class BossController : MonoBehaviour
             {
                 bodyPosition = new Vector3(transform.position.x, transform.position.y + (float)0.2, transform.position.z);
                 hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.5, transform.position.z);
+                hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.3, transform.position.z);
                 bodyRotation = new Quaternion(transform.rotation.x + (float)0.6, transform.rotation.y, transform.rotation.z, transform.rotation.w);
                 headRotation = new Quaternion(transform.rotation.x + (float)0.5, transform.rotation.y, transform.rotation.z, transform.rotation.w);
                 //Instantiate(slicedEnemy, transform.position, Quaternion.identity);
@@ -48,7 +82,7 @@ public class BossController : MonoBehaviour
                 objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
                 objectPool.SpawnFromPool("Head", upperPos, headRotation);
                 objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
-
+                objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
             }
 
 
