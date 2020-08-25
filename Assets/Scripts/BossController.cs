@@ -26,6 +26,8 @@ public class BossController : MonoBehaviour
     public GameObject bullet;
     public GameObject gun;
     public bool setFire = false;
+    public bool hasUzi = false;
+    public Animator anim;
 
     private void Start()
     {
@@ -40,6 +42,11 @@ public class BossController : MonoBehaviour
         target = new Vector3(player.position.x, player.position.y, player.position.z);
         offset = new Vector3(playerObj.transform.position.x + (float)1.8, playerObj.transform.position.y, playerObj.transform.position.z);
         transform.LookAt(offset);
+
+        if (hasUzi)
+        {
+            anim.SetBool("hasUzi", true);
+        }
         
     }
 
@@ -79,7 +86,15 @@ public class BossController : MonoBehaviour
             objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
             objectPool.SpawnFromPool("Head", upperPos, headRotation);
             objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
-            objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
+            if (hasUzi)
+            {
+                objectPool.SpawnFromPool("Uzi", hatPosition, Quaternion.identity);
+            }
+            else
+            {
+                objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
+            }
+            
 
         }
         else if (other.CompareTag("Player"))
