@@ -109,10 +109,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2f9b9eb67d60b74cac279a607c85c06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   cutSize: 0.22
   slicedBullet: {fileID: 146516369294770109, guid: c7d81648b3dbdec419500ae5f6541fb8, type: 3}
   bonus: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!96 &-7397379224957841117
 TrailRenderer:
   serializedVersion: 2

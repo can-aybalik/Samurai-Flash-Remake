@@ -38,6 +38,8 @@ public class BossController : MonoBehaviour
         objectPool = ObjectPool.Instance;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector3(player.position.x, player.position.y, player.position.z);
+        offset = new Vector3(playerObj.transform.position.x + (float)1.8, playerObj.transform.position.y, playerObj.transform.position.z);
+        transform.LookAt(offset);
         
     }
 
@@ -65,26 +67,21 @@ public class BossController : MonoBehaviour
             Debug.Log("ENEMY CUT!");
             //speed = 0;
             DestroyEnemy();
-            upperPos = new Vector3(transform.position.x-1, transform.position.y + 1, transform.position.z-1);
+            upperPos = new Vector3(transform.position.x - 1, transform.position.y + 1, transform.position.z - 1);
 
-            if (other.CompareTag("Katana"))
-            {
-                bodyPosition = new Vector3(transform.position.x, transform.position.y + (float)0.2, transform.position.z);
-                hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.5, transform.position.z);
-                hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.3, transform.position.z);
-                bodyRotation = new Quaternion(transform.rotation.x + (float)0.6, transform.rotation.y, transform.rotation.z, transform.rotation.w);
-                headRotation = new Quaternion(transform.rotation.x + (float)0.5, transform.rotation.y, transform.rotation.z, transform.rotation.w);
-                //Instantiate(slicedEnemy, transform.position, Quaternion.identity);
-                //Instantiate(slicedEnemy, upperPos, Quaternion.identity);
-                objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
-                objectPool.SpawnFromPool("Head", upperPos, headRotation);
-                objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
-                objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
-            }
-
+            bodyPosition = new Vector3(transform.position.x, transform.position.y + (float)0.2, transform.position.z);
+            hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.5, transform.position.z);
+            hatPosition = new Vector3(transform.position.x, transform.position.y + (float)1.3, transform.position.z);
+            bodyRotation = new Quaternion(transform.rotation.x + (float)0.6, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+            headRotation = new Quaternion(transform.rotation.x + (float)0.5, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+            //Instantiate(slicedEnemy, transform.position, Quaternion.identity);
+            //Instantiate(slicedEnemy, upperPos, Quaternion.identity);
+            objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
+            objectPool.SpawnFromPool("Head", upperPos, headRotation);
+            objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
+            objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
 
         }
-
         else if (other.CompareTag("Player"))
         {
             FindObjectOfType<GameController>().GameOver();

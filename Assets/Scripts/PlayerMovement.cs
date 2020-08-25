@@ -81,6 +81,7 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetKey(KeyCode.Space))
                 {
                     FindObjectOfType<GameController>().clearOldLevel();
+                    anim.SetBool("isFinished", false);
                     //playerObj.GetComponent<TrailRenderer>().enabled = false;
                     playerObj.transform.position = new Vector3(0, 0, 0);
                     rb.drag = 1;
