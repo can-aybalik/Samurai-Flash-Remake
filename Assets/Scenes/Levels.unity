@@ -2071,7 +2071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 43632b278d486bf49a5accc39e22ebb2, type: 3}
       propertyPath: m_Name
-      value: Boss
+      value: BossWithUzi
       objectReference: {fileID: 0}
     - target: {fileID: 1241873080181308851, guid: 43632b278d486bf49a5accc39e22ebb2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4748,6 +4748,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 1142911510}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &339986174
 Animator:
   serializedVersion: 3
@@ -4938,6 +4940,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 752395252}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &350852628
 Animator:
   serializedVersion: 3
@@ -6699,7 +6703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &491555708
 Transform:
   m_ObjectHideFlags: 0
@@ -6776,6 +6780,9 @@ MonoBehaviour:
   - tag: Pistol
     prefab: {fileID: 8426163353590741137, guid: a3865a6584851524f9284b81aba7997d, type: 3}
     size: 30
+  - tag: Uzi
+    prefab: {fileID: 8711371968917710484, guid: 4cc86ce4fa2c75842b373c17f865e704, type: 3}
+    size: 30
 --- !u!4 &504229161
 Transform:
   m_ObjectHideFlags: 0
@@ -6819,6 +6826,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 1689975503}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &504270461
 Animator:
   serializedVersion: 3
@@ -7226,6 +7235,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 461900854}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &550291056
 Animator:
   serializedVersion: 3
@@ -7657,6 +7668,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 250458790}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &586017987
 Animator:
   serializedVersion: 3
@@ -9054,7 +9067,6 @@ MonoBehaviour:
   - {fileID: 823284220}
   - {fileID: 210875604}
   - {fileID: 1842063607}
-  - {fileID: 0}
   currentLevelIndex: 0
   isShellActive: 0
 --- !u!4 &640596576
@@ -13433,6 +13445,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 1616742550}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &973991016
 Animator:
   serializedVersion: 3
@@ -14885,6 +14899,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 536955365}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &1031175349
 Animator:
   serializedVersion: 3
@@ -15136,6 +15152,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 199428622}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!1 &1064681976
 GameObject:
   m_ObjectHideFlags: 0
@@ -18767,6 +18785,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 963982575}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &1343093433
 Animator:
   serializedVersion: 3
@@ -22549,6 +22569,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 1437882512}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &1510208572
 Animator:
   serializedVersion: 3
@@ -22744,6 +22766,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 2008375786}
   setFire: 0
+  hasUzi: 1
+  anim: {fileID: 1526702302}
 --- !u!95 &1526702302
 Animator:
   serializedVersion: 3
@@ -26004,7 +26028,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: submachine_gun_4 Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3320418911580938222, guid: 4cc86ce4fa2c75842b373c17f865e704, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4cc86ce4fa2c75842b373c17f865e704, type: 3}
 --- !u!1 &1842063607
 GameObject:
@@ -26021,7 +26046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1842063608
 Transform:
   m_ObjectHideFlags: 0
@@ -26069,6 +26094,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 41877055}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &1853982398
 Animator:
   serializedVersion: 3
@@ -28578,6 +28605,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 525507735}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &2050604649
 Animator:
   serializedVersion: 3
@@ -29112,6 +29141,8 @@ MonoBehaviour:
   bullet: {fileID: 146516369294770109, guid: b3889d3534ca8fc43a9cb6f8e95c2cc2, type: 3}
   gun: {fileID: 1265766592}
   setFire: 0
+  hasUzi: 0
+  anim: {fileID: 0}
 --- !u!95 &2116752701
 Animator:
   serializedVersion: 3

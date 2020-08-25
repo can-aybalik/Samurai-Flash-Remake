@@ -12,8 +12,7 @@ public class GameController : MonoBehaviour
     public GameObject failedUI2;
     public GameObject[] levels;
 
-    public int currentLevelIndex = 0;
-
+    public static int currentLevelIndex = 0;
     bool isGameOver = false;
     public bool isShellActive = false;
 
@@ -26,6 +25,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        levels[currentLevelIndex].SetActive(true);
         FindObjectOfType<PlayerMovement>().cutscene = true;
         TimeController.continueTime();
         failedUI2.SetActive(true);
@@ -59,6 +59,7 @@ public class GameController : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 
     public void CompleteLevel()
