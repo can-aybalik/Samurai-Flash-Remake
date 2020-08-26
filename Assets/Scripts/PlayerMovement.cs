@@ -138,12 +138,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Ground"))
+        if (other.CompareTag("ExitDetector"))
         {
-            Debug.Log("DOKUNDU");
             anim.SetBool("isSwinging", false);
             grounded = true;
-            other.GetComponent<BoxCollider>().isTrigger = false;
+            //other.GetComponent<BoxCollider>().isTrigger = false;
         }
     }
 
@@ -151,7 +150,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("ExitDetector"))
         {
-            Debug.Log("ÇIKTI");
             other.GetComponent<MeshCollider>().isTrigger = false;
             grounded = false;
         }
