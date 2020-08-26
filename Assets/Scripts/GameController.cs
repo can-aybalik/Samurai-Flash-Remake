@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour
             }
             else
             {
-                cubeRenderer.material.SetColor("_Color", Color.white);
+                //cubeRenderer.material.SetColor("_Color", Color.white);
                 isShellActive = false;
             }
             
@@ -79,7 +79,7 @@ public class GameController : MonoBehaviour
 
     public void activateShell()
     {
-        cubeRenderer.material.SetColor("_Color", Color.green);
+        //cubeRenderer.material.SetColor("_Color", Color.green);
         isShellActive = true;
     }
 

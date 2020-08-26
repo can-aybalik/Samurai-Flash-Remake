@@ -13,6 +13,8 @@ TagManager:
   - Bonus
   - Level01
   - ObjectPool
+  - Ground
+  - ExitDetector
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using UnityEditorInternal;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.CompilerServices;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool falling = false;
 
+    bool grounded = true;
+
     public GameObject objectPool;
 
     public GameObject playerObj;
@@ -30,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //Debug.Log("GROUNDED = " + grounded);
         if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
         {
             anim.SetBool("isMoving", true);
@@ -39,19 +44,41 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isMoving", false);
         }
 
-
-        if (transform.position.y < -(float)0.5)
+        if(GameController.currentLevelIndex != 4)
         {
-            falling = true;
-            anim.SetBool("isFalling", true);
-        }
+            if (transform.position.y < -(float)0.5)
+            {
+                falling = true;
+                anim.SetBool("isFalling", true);
+            }
 
-        if (transform.position.y < -5)
+            if (transform.position.y < -5)
+            {
+                FindObjectOfType<GameController>().GameOver();
+                falling = false;
+            }
+        }
+        else
         {
-            FindObjectOfType<GameController>().GameOver();
-            falling = false;
-        }
 
+            if (grounded)
+            {
+                anim.SetBool("isSwinging", false);
+            }
+            else
+            {
+                anim.SetBool("isSwinging", true);
+            }
+            
+            if (transform.position.y < -20)
+            {
+                anim.SetBool("isSwinging", false);
+                anim.SetBool("isFalling", true);
+                FindObjectOfType<GameController>().GameOver();
+                falling = false;
+                grounded = true;
+            }
+        }
         if (!hitted)
         {
             if (Input.GetKey("w"))
@@ -108,4 +135,29 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            Debug.Log("DOKUNDU");
+            anim.SetBool("isSwinging", false);
+            grounded = true;
+            other.GetComponent<BoxCollider>().isTrigger = false;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("ExitDetector"))
+        {
+            Debug.Log("ÇIKTI");
+            other.GetComponent<MeshCollider>().isTrigger = false;
+            grounded = false;
+        }
+    }
+
+
+
+
 }
