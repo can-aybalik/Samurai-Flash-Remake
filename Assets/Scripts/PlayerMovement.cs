@@ -150,7 +150,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("ExitDetector"))
         {
-            other.GetComponent<MeshCollider>().isTrigger = false;
+            //other.GetComponent<MeshCollider>().isTrigger = false;
             grounded = false;
         }
     }

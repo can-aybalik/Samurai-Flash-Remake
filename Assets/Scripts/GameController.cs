@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     public GameObject failedUI2;
     public GameObject[] levels;
 
-    public static int currentLevelIndex = 4;
+    public static int currentLevelIndex = 0;
     bool isGameOver = false;
     public bool isShellActive = false;
 

@@ -28,6 +28,7 @@ public class BossController : MonoBehaviour
     public bool setFire = false;
     public bool hasUzi = false;
     public Animator anim;
+    bool firstTimeCheck = true;
 
     private void Start()
     {
@@ -83,16 +84,22 @@ public class BossController : MonoBehaviour
             headRotation = new Quaternion(transform.rotation.x + (float)0.5, transform.rotation.y, transform.rotation.z, transform.rotation.w);
             //Instantiate(slicedEnemy, transform.position, Quaternion.identity);
             //Instantiate(slicedEnemy, upperPos, Quaternion.identity);
-            objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
-            objectPool.SpawnFromPool("Head", upperPos, headRotation);
-            objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
-            if (hasUzi)
+            if (firstTimeCheck)
             {
-                objectPool.SpawnFromPool("Uzi", hatPosition, Quaternion.identity);
-            }
-            else
-            {
-                objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
+                objectPool.SpawnFromPool("Body", bodyPosition, bodyRotation);
+                objectPool.SpawnFromPool("Head", upperPos, headRotation);
+                objectPool.SpawnFromPool("Hat", hatPosition, Quaternion.identity);
+                firstTimeCheck = false;
+
+
+                if (hasUzi)
+                {
+                    objectPool.SpawnFromPool("Uzi", hatPosition, Quaternion.identity);
+                }
+                else
+                {
+                    objectPool.SpawnFromPool("Pistol", hatPosition, Quaternion.identity);
+                }
             }
             
 
