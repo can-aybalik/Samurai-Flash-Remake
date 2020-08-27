@@ -29,7 +29,7 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (EnemyShooting.trackingPlayer)
+        if (BossController.trackingPlayer)
         {
             transform.position = Vector3.MoveTowards(transform.position, new Vector3(player.position.x, player.position.y + 1, player.position.z), speed * Time.deltaTime);
             if (transform.position.x == player.position.x && transform.position.y == player.position.y && transform.position.z == player.position.z)

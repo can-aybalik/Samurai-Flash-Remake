@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("isSwinging", true);
             }
             
-            if (transform.position.y < -20)
+            if (transform.position.y < -40)
             {
                 anim.SetBool("isSwinging", false);
                 anim.SetBool("isFalling", true);
@@ -111,6 +111,7 @@ public class PlayerMovement : MonoBehaviour
                     anim.SetBool("isFinished", false);
                     //playerObj.GetComponent<TrailRenderer>().enabled = false;
                     playerObj.transform.position = new Vector3(0, 0, 0);
+                    playerObj.transform.eulerAngles = new Vector3(0, 0, 0);
                     rb.drag = 1;
                 }
             }

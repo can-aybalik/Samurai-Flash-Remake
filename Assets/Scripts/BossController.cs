@@ -27,6 +27,7 @@ public class BossController : MonoBehaviour
     public GameObject gun;
     public bool setFire = false;
     public bool hasUzi = false;
+    public bool hasP90 = false;
     public Animator anim;
     bool firstTimeCheck = true;
 
@@ -47,6 +48,10 @@ public class BossController : MonoBehaviour
         if (hasUzi)
         {
             anim.SetBool("hasUzi", true);
+        }
+        else if (hasP90)
+        {
+            anim.SetBool("hasP90", true);
         }
         
     }
@@ -95,6 +100,10 @@ public class BossController : MonoBehaviour
                 if (hasUzi)
                 {
                     objectPool.SpawnFromPool("Uzi", hatPosition, Quaternion.identity);
+                }
+                else if (hasP90)
+                {
+                    objectPool.SpawnFromPool("P90", hatPosition, Quaternion.identity);
                 }
                 else
                 {
