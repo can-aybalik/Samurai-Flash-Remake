@@ -11,10 +11,12 @@ public class GameController : MonoBehaviour
     public GameObject gameCompleteUI;
     public GameObject failedUI;
     public GameObject failedUI2;
+    public GameObject soundController;
     public GameObject[] levels;
 
     public static int currentLevelIndex = 0;
     bool isGameOver = false;
+    static bool isSoundOn = true;
     public bool isShellActive = false;
 
 
@@ -26,6 +28,15 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        if (isSoundOn)
+        {
+            soundController.SetActive(true);
+            isSoundOn = false;
+        }
+        else
+        {
+            soundController.SetActive(false);
+        }
         levels[currentLevelIndex].SetActive(true);
         FindObjectOfType<PlayerMovement>().cutscene = true;
         TimeController.continueTime();
@@ -59,8 +70,8 @@ public class GameController : MonoBehaviour
     IEnumerator RestartWithDelay(float time)
     {
         yield return new WaitForSeconds(time);
+        DontDestroyOnLoad(soundController);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
     }
 
     public void CompleteLevel()
@@ -76,6 +87,7 @@ public class GameController : MonoBehaviour
         else
         {
             Invoke("showGameCompleteUI", 2);
+
         }
     }
 
