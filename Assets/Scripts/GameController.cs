@@ -8,11 +8,12 @@ public class GameController : MonoBehaviour
     public GameObject playerObj;
     public GameObject objectPoolInstance;
     public GameObject levelCompleteUI;
+    public GameObject gameCompleteUI;
     public GameObject failedUI;
     public GameObject failedUI2;
     public GameObject[] levels;
 
-    public static int currentLevelIndex = 4;
+    public static int currentLevelIndex = 0;
     bool isGameOver = false;
     public bool isShellActive = false;
 
@@ -68,13 +69,24 @@ public class GameController : MonoBehaviour
         TimeController.continueTime();
         Debug.Log("FINISH!");
         FindObjectOfType<PlayerMovement>().rb.drag = 20;
-        Invoke("showLevelCompleteUI", 2);
-
+        if(currentLevelIndex < 4)
+        {
+            Invoke("showLevelCompleteUI", 2);
+        }
+        else
+        {
+            Invoke("showGameCompleteUI", 2);
+        }
     }
 
     public void showLevelCompleteUI()
     {
         levelCompleteUI.SetActive(true);
+    }
+
+    public void showGameCompleteUI()
+    {
+        gameCompleteUI.SetActive(true);
     }
 
     public void activateShell()
