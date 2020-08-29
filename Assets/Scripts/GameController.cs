@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
     public static int currentLevelIndex = 0;
     bool isGameOver = false;
     static bool isSoundOn = true;
+    static bool doOnce = true;
     public bool isShellActive = false;
 
 
@@ -70,7 +71,11 @@ public class GameController : MonoBehaviour
     IEnumerator RestartWithDelay(float time)
     {
         yield return new WaitForSeconds(time);
-        DontDestroyOnLoad(soundController);
+        if (doOnce)
+        {
+            DontDestroyOnLoad(soundController);
+            doOnce = false;
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
