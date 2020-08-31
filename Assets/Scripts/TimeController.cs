@@ -18,7 +18,7 @@ public class TimeController : MonoBehaviour
     public void disableCutscene()
     {
         FindObjectOfType<PlayerMovement>().cutscene = false;
-        Debug.Log("GİRDİ!");
+        Debug.Log("LO!");
     }
 
 

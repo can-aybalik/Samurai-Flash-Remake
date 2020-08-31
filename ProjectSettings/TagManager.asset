@@ -15,6 +15,7 @@ TagManager:
   - ObjectPool
   - Ground
   - ExitDetector
+  - MainMenuUI
   layers:
   - Default
   - TransparentFX
